@@ -147,4 +147,30 @@
 
 
 > #### Paper List
-> * 
+> * a
+
+
+
+## *Computer Vision Fields*
+
+### 1. Object Detection
+
+> #### 简要介绍
+
+
+> #### Paper List
+> * a
+
+
+
+## *Natural Language Processing Fields*
+
+### 1. Natural Language Generation
+
+
+> #### 简要介绍
+
+
+> #### Paper List
+> * a
+
