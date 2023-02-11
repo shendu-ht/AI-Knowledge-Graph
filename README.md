@@ -23,7 +23,12 @@
 ### 2. Reinforcement Learning
 
 > #### 简要介绍
->
+> 强化学习（Reinforcement Learning）是一种机器学习方法，其目标是让一个智能体在经历不断的尝试和错误之后，学习到如何在一个环境中取得最优表现。
+> 它是一种在环境中的自主学习，通过在环境中采取行动来获得反馈，然后根据反馈不断学习。
+> 
+> 强化学习的过程可以描述为：智能体（Agent）从环境（Environment）中获得观察（Observation），然后根据观察选择行动（Action），
+> 行动导致环境发生变化，变化产生新的状态和奖励（Reward），奖励可以让智能体学习到哪些行动有利于达到最终目标。
+
 
 > #### Paper List
 > * Proximal Policy Optimization Algorithms
@@ -48,6 +53,14 @@
 > #### Paper List
 > * 
 
+
+### 5. Bayesian Learning
+
+> #### 简要介绍
+> 
+
+> #### Paper List
+> * 
 
 ## *Programming Language Fields*
 
