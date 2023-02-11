@@ -18,7 +18,7 @@
 
 > #### Paper List
 > * An Explanation of In-context Learning as Implicit Bayesian Inference
-> *
+> * 
 
 ### 2. Reinforcement Learning
 
@@ -32,17 +32,19 @@
 
 > #### Paper List
 > * Proximal Policy Optimization Algorithms
-> *
+[[pdf]](https://arxiv.org/pdf/1707.06347.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/PPO.md)
+> * 
 
 
 ### 3. Generative Model
 
 > #### 简要介绍
-> 生成式AI（Generative Artificial Intelligence）
+> 
 
 > #### Paper List
-> * ControlVAE: Controllable Variational Autoencoder
-> *
+> * ControlVAE: Controllable Variational Autoencoder 
+[[pdf]](http://proceedings.mlr.press/v119/shao20b/shao20b.pdf) [[notes]](./Machine%20Learning/Generative%20Model/ControlVAE.md)
+> * 
 
 
 ### 4. Graph Learning
@@ -62,6 +64,26 @@
 > #### Paper List
 > * 
 
+### 6. Pre-training Model
+
+> #### 简要介绍
+> 
+
+> #### Paper List
+> * BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
+[[pdf]](https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ) [[notes]](./Machine%20Learning/Pre-training%20Model/BERT.md)
+> * Improving Language Understanding by Generative Pre-Training
+[[pdf]](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT.md)
+> * Language Models are Unsupervised Multitask Learners
+[[pdf]](https://cs.brown.edu/courses/csci1460/assets/papers/language_models_are_unsupervised_multitask_learners.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT2.md)
+> * Language Models are Few-Shot Learners
+[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT3.md)
+> * Training language models to follow instructions with human feedback
+[[pdf]](https://arxiv.org/pdf/2203.02155.pdf?fbclid=IwAR2nZdBpdZZzvxpwI6H_bRmP4RwGOyzke9Ud63lWBe1YlyI_1BRAFhnUMUg) [[notes]](./Machine%20Learning/Pre-training%20Model/InstructGPT.md)
+> * WebGPT: Browser-assisted question-answering with human feedback
+[[pdf]](https://arxiv.org/pdf/2112.09332.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/WebGPT.md)
+
+
 ## *Programming Language Fields*
 
 ### 1. Automatic Program Repair
@@ -72,7 +94,9 @@
 
 > #### Paper List
 > * Automatic Patch Generation by Learning Correct Code
-> * 
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2837614.2837617) [[notes]](./Programming%20Language/Automatic%20Program%20Repair/Prophet.md)
+> * TBar: Revisiting Template-Based Automated Program Repair
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3293882.3330577) [[notes]](./Programming%20Language/Automatic%20Program%20Repair/TBar.md)
 
 
 ### 2. Code Generation
