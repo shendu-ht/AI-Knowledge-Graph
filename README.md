@@ -128,7 +128,7 @@
 
 
 > #### Paper List
-> * a
+> * Competition-Level Code Generation with AlphaCode [[pdf]](https://arxiv.org/pdf/2203.07814.pdf) [[notes]](./Programming%20Language/Code%20Generation/AlphaCode.md)
 
 
 
@@ -167,10 +167,21 @@
 
 ### 1. Natural Language Generation
 
-
 > #### 简要介绍
 
 
 > #### Paper List
 > * a
 
+
+## *Data Mining Fields*
+
+
+### 1. 
+
+
+> #### 简要介绍
+
+
+> #### Paper List
+> * a
