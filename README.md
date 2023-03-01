@@ -78,8 +78,20 @@
 > * 
 
 
+### 6. Optimization Algorithm
 
-### 6. Pre-training Model
+> #### 简要介绍
+> 
+
+> #### Optimization Approaches
+> * SGD [[notes]](./Machine%20Learning/Optimization%20Algorithm/SGD.md)
+> * Momentum [[notes]](./Machine%20Learning/Optimization%20Algorithm/momentum.md)
+> * RMSProp [[notes]](./Machine%20Learning/Optimization%20Algorithm/RMSProp.md)
+> * AdaGrad [[pdf]](https://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adaGrad.md)
+> * Adam: [[pdf]](https://arxiv.org/pdf/1412.6980.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adam.md)
+
+
+### 7. Pre-training Model
 
 > #### 简要介绍
 > 预训练模型（Pre-training model）是指在机器学习算法中，使用大量训练数据，对模型进行预先训练，以获得更好的性能和更有效地学习结果。
@@ -99,11 +111,27 @@
 [[pdf]](https://arxiv.org/pdf/2203.02155.pdf?fbclid=IwAR2nZdBpdZZzvxpwI6H_bRmP4RwGOyzke9Ud63lWBe1YlyI_1BRAFhnUMUg) [[notes]](./Machine%20Learning/Pre-training%20Model/InstructGPT.md)
 > * WebGPT: Browser-assisted question-answering with human feedback
 [[pdf]](https://arxiv.org/pdf/2112.09332.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/WebGPT.md)
-
+> * LaMDA: Language Models for Dialog Applications
+[[pdf]](https://arxiv.org/pdf/2201.08239.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/LaMDA.md)
 
 ## *Programming Language Fields*
 
-### 1. Automatic Program Repair
+### 1. Program Debugging and Fault Localization
+
+> #### 简要介绍
+> 
+> 
+
+> #### Paper List
+> * A Survey of Algorithmic Debugging
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3106740) [[notes]](./Programming%20Language/Program%20Debugging/csur_algorithmic_debug.md)
+> * Survey of Source Code Bug Detection Based on Deep Learning
+[[pdf]](http://www.jos.org.cn/josen/article/abstract/6696) [[notes]](./Programming%20Language/Program%20Debugging/js_survey.md)
+> * 
+
+
+
+### 2. Automatic Program Repair
 
 > #### 简要介绍
 > 自动程序修复 (APR) 旨在使用来自软件工程、计算机编程和机器学习的算法和技术来自动检测和修复计算机程序中的错误。
@@ -114,9 +142,11 @@
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2837614.2837617) [[notes]](./Programming%20Language/Automatic%20Program%20Repair/Prophet.md)
 > * TBar: Revisiting Template-Based Automated Program Repair
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3293882.3330577) [[notes]](./Programming%20Language/Automatic%20Program%20Repair/TBar.md)
+> * DEAR: A Novel Deep Learning-based Approach for Automated Program Repair
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510177) [notes](./Programming%20Language/Automatic%20Program%20Repair/DEAR.md)
 
 
-### 2. Code Generation
+### 3. Code Generation
 
 > #### 简要介绍
 > 代码生成是一种自动生成软件代码的技术。它可以根据用户提供的设计或模型自动生成软件代码，从而大大简化编码工作，提高软件开发的效率。 
