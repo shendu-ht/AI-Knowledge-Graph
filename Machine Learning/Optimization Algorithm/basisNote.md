@@ -43,7 +43,24 @@ $\mathrm{span}\begin{bmatrix} \mathbf{a_1} & \mathbf{a_2} & \cdots & \mathbf{a_n
 
 
 > * **收敛序列与极限**：对于任意正数$\varepsilon$，存在$K$，使得对于所有$k>K$，都有$\begin{vmatrix} x_k - x^{*} \end{vmatrix} < \varepsilon$，
-则称$x^{*} \in R$为序列$\begin{Bmatrix} x_k \end{Bmatrix}$的极限，记为 $x^{*} = \lim_{k\rightarrow \infty} x_k$。如果序列存在极限，则该序列称为收敛序列。
+则称$x^{\*} \in R$为序列$\begin{Bmatrix} x_k \end{Bmatrix}$的极限，记为 $x^{*} = \lim_{k\rightarrow \infty} x_k$。如果序列存在极限，则该序列称为收敛序列。
 > * **矩阵收敛**：给定$m\times m$矩阵队列$\mathbf{A_k}$和$m\times m$矩阵$\mathbf{A}$，如果$\lim_{k \rightarrow \infty}
 \begin{Vmatrix} \mathbf{A_k} - \mathbf{A} \end{Vmatrix} = 0$，则称矩阵序列收敛于矩阵$\mathbf{A}$。
-> * **矩阵收敛引理**：给定$$
+> * **矩阵收敛引理**：给定$\mathbf{A} \in R^{n\times n}$, 当且晋档$\mathbf{A}$的所有特征值满足
+$\begin{vmatrix} \lambda_i(\mathrm{A}) \end{vmatrix} < 1 (i=1,\cdots, n) $时，存在$\lim_{k\rightarrow \infty} \mathbf{A}^{k} = \mathbf{0}$。
+> * **矩阵收敛引理**：$n\times n$的矩阵序列
+$$ \mathbf{I_n} + \mathbf{A} + \mathbf{A^2} + \cdots + \mathbf{A^k}  + \cdots$$
+是收敛序列，当且仅当$\lim_{k\rightarrow \infty} \mathbf{A^{k}} = \mathbf{0}$. 此时序列和为$(\mathbf{I_n} - \mathbf{A})^{-1}$。
+> * **矩阵连续**：给定矩阵值函数$\mathbf{A}: R^{r} \rightarrow R^{n\times n}$和点$\mathbf{\xi_0} \in R^{r}$，如果
+$$ \lim_{\begin{Vmatrix} \mathbf{\xi} - \mathbf{\xi_0}  \end{Vmatrix} \rightarrow 0}  \begin{Vmatrix} \mathbf{A}(\mathbf{\xi}) - \mathbf{A}(\mathbf{\xi_0})  \end{Vmatrix} = 0$$
+那么$\mathbf{A}$在点$\mathbf{\xi_0}$处连续。
+> * **可微**：给定函数$\mathbf{f}: \Omega \rightarrow R^{m}, \Omega \subset R^{n}$，如果存在仿射函数$\mathcal{L}: R^{n} \rightarrow R^{m}$，使得
+$$ \lim_{x\rightarrow x_0, x\in \Omega} \frac{\begin{Vmatrix} f(x) - (f(x_0) + \mathcal{L}(x-x_0)) \end{Vmatrix}}{\begin{Vmatrix} x - x_0 \end{Vmatrix}} = 0 $$
+则函数$\mathbf{f}$在点$x_0\in \Omega$处是可微的，$\mathcal{L}$称为$\mathbf{f}$在点$x_0$的导数。
+> * **导数矩阵**：给定任意函数$\mathbf{f}: R^{n} \rightarrow R^{m}$，其导数$\mathcal{L}$可表示为$m\times n$矩阵
+$$ \begin{bmatrix} \frac{\partial f}{\partial x_1}(x_0) & \cdots  & \frac{\partial f}{\partial x_n}(x_0) \end{bmatrix} =  
+\begin{bmatrix} \frac{\partial f_1}{\partial x_1}(x_0) & \cdots  & \frac{\partial f_1}{\partial x_n}(x_0) \\
+\vdots & \ddots & \vdots \\
+\frac{\partial f_m}{\partial x_1}(x_0) & \cdots  & \frac{\partial f_m}{\partial x_n}(x_0) 
+\end{bmatrix}$$
+> * **梯度**：

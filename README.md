@@ -6,11 +6,6 @@
 > * **Build Omniscient Knowledge Graph.**
 
 
-## *Contents*
-
-[toc]
-
-
 ## *Machine Learning Fields*
 
 ### 1. In-Context Learning
