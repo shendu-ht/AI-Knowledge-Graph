@@ -46,4 +46,4 @@ $\mathrm{span}\begin{bmatrix} \mathbf{a_1} & \mathbf{a_2} & \cdots & \mathbf{a_n
 则称$x^{*} \in R$为序列$\begin{Bmatrix} x_k \end{Bmatrix}$的极限，记为 $x^{*} = \lim_{k\rightarrow \infty} x_k$。如果序列存在极限，则该序列称为收敛序列。
 > * **矩阵收敛**：给定$m\times m$矩阵队列$\mathbf{A_k}$和$m\times m$矩阵$\mathbf{A}$，如果$\lim_{k \rightarrow \infty}
 \begin{Vmatrix} \mathbf{A_k} - \mathbf{A} \end{Vmatrix} = 0$，则称矩阵序列收敛于矩阵$\mathbf{A}$。
-> * 
+> * **矩阵收敛引理**：给定$$

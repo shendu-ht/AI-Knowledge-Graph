@@ -2,11 +2,14 @@
 
 ## *Objectives*
 
-**Tracking potential fields.**
+> * **Tracking potential fields.**
+> * **Build Omniscient Knowledge Graph.**
 
-在当前经济增长乏力的背景下，需要技术和产业突破来驱动经济发展。 现在是深入研究技术的好时机。
 
-这些文献阅读笔记包括摘要、关键引文和读者感兴趣的重要细节。 它们还可能包括问题、个人反思以及与其他领域的联系。
+## *Contents*
+
+[toc]
+
 
 ## *Machine Learning Fields*
 
