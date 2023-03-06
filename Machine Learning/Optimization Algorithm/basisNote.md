@@ -59,8 +59,34 @@ $$ \lim_{x\rightarrow x_0, x\in \Omega} \frac{\begin{Vmatrix} f(x) - (f(x_0) + \
 则函数$\mathbf{f}$在点$x_0\in \Omega$处是可微的，$\mathcal{L}$称为$\mathbf{f}$在点$x_0$的导数。
 > * **导数矩阵**：给定任意函数$\mathbf{f}: R^{n} \rightarrow R^{m}$，其导数$\mathcal{L}$可表示为$m\times n$矩阵
 $$ \begin{bmatrix} \frac{\partial f}{\partial x_1}(x_0) & \cdots  & \frac{\partial f}{\partial x_n}(x_0) \end{bmatrix} =  
-\begin{bmatrix} \frac{\partial f_1}{\partial x_1}(x_0) & \cdots  & \frac{\partial f_1}{\partial x_n}(x_0) \\
-\vdots & \ddots & \vdots \\
+\begin{bmatrix} \frac{\partial f_1}{\partial x_1}(x_0) & \cdots  & \frac{\partial f_1}{\partial x_n}(x_0) \\\\
+\vdots & \ddots & \vdots \\\\
 \frac{\partial f_m}{\partial x_1}(x_0) & \cdots  & \frac{\partial f_m}{\partial x_n}(x_0) 
 \end{bmatrix}$$
-> * **梯度**：
+> * **梯度**：如果$f: R^n \rightarrow R$是可微的，如下函数称为$f$的梯度
+$$ \nabla f(x) = \begin{bmatrix} \frac{\partial f}{\partial x_1} (x) \\\\ \vdots \\\\ \frac{\partial f}{\partial x_n} (x) \end{bmatrix} $$
+> * **Hessian矩阵**：给定函数$f: R^n \rightarrow R$，如果梯度$\nabla f(x)$，则$f$是二次可微的，Hessian矩阵如下：
+$$ D^2 f = \begin{bmatrix} 
+\frac{\partial f^2}{\partial x_1^2} & \frac{\partial f^2}{\partial x_2 \partial x_1} & \cdots & \frac{\partial f^2}{\partial x_n \partial x_1}  \\\\ 
+\frac{\partial f^2}{\partial x_1 \partial x_2} & \frac{\partial f^2}{\partial x_2^2} & \cdots & \frac{\partial f^2}{\partial x_n \partial x_2}  \\\\ 
+\vdots & \vdots & \ddots & \vdots  \\\\ 
+\frac{\partial f^2}{\partial x_1 \partial x_n} & \frac{\partial f^2}{\partial x_2 \partial x_n} & \cdots & \frac{\partial f^2}{\partial x_n^2} 
+\end{bmatrix}  $$
+> * **微分链式法则**：如果$g: \mathcal{D} \rightarrow \mathcal{R}$在$D\subset R^n$上是可微的，且$f: (a. b) \rightarrow \mathcal{D}$在$(a,b)$上可微。那么其复合函数$h: (a, b)\rightarrow R$，$h(t) = g(f(t))$在$(a,b)$上是可微的，且导数为
+$$ h^{'}(t) = Dg(f(t))Df(t) = \nabla g(f(t))^{T} \begin{bmatrix} f^{'}_{1}(t) \\\\ \vdots \\\\ f^{'}_{n}(t) \end{bmatrix}$$
+> * **泰勒定理**：假定函数$f: R\rightarrow R$在区间$[a, b]$上是$m$阶连续可微的。令$h=b-a$，有
+$$ f(b) = f(a) + \frac{h}{1!}f^{(1)}(a) + \frac{h^2}{2!}f^{(2)}(a) + \cdots + \frac{h^{m-1}}{(m-1)!}f^{(m-1)}(a) + R_m$$
+$$ R_m = \frac{h^m}{m!} f^{(m)} (a + \theta h) $$
+
+    
+
+### 4. 无约束优化基础知识
+
+> * **无约束优化问题**：$\min f(x)$ subject to $x \in \Omega$
+> * **局部极小值的一阶必要条件**：多元实值函数$f$在约束集$\Omega \subset R^{n}$上一阶连续可微，即$f\in C^{1}$。如果$x^{\*}$是函数$f$在约束集$\Omega$上的局部极小值，且是$Omega$的内点，则有
+$$ \nabla f(x^{\*}) = 0$$
+> * **局部极小值的二阶必要条件**：Hessian矩阵是半正定矩阵，即$d^{T} \cdot D^2 f \cdot d \geq 0$。
+> * **一维优化搜索方法**：$f: R \rightarrow R$时的搜索方法有 黄金分割法、斐波那契数列法、二分法、牛顿法、割线法、划界法等。
+> * **全局搜索算法**：Nelder-Mead单纯形法、模拟退火法、粒子群优化算法、遗传算法
+> * **梯度方法**：随机梯度下降、牛顿法等
+
