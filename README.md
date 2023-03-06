@@ -31,7 +31,9 @@
 
 
 > #### Paper List
-> * Proximal Policy Optimization Algorithms
+> * **[DQN]** Human-level control through deep reinforcement learning
+[[pdf]](https://daiwk.github.io/assets/dqn.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/DQN.md)
+> * **[PPO]** Proximal Policy Optimization Algorithms
 [[pdf]](https://arxiv.org/pdf/1707.06347.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/PPO.md)
 > * 
 
@@ -77,13 +79,34 @@
 > #### Paper List
 > * 
 
+### 6. Active Learning
 
-### 6. Optimization Algorithm
+> #### 简要介绍
+> 
+
+> #### Paper List
+> * Active Learning with Label Comparisons
+[[pdf]](https://proceedings.mlr.press/v180/yona22a/yona22a.pdf) [[notes]](./Machine%20Learning/Active%20Learning/NbrGraphSGD.md)
+> * 
+
+### 7. Semi-Supervised Learning
+
+> #### 简要介绍
+> 
+
+> #### Paper List
+> * AdaMatch: A Unified Approach to Semi-Supervised Learning and Domain Adaptation
+[[pdf]](https://arxiv.org/pdf/2106.04732.pdf) [[notes]](./Machine%20Learning/Semi-Supervised%20Learning/AdaMatch.md)
+> * 
+
+
+### 8. Optimization Algorithm
 
 > #### 简要介绍
 > 
 
 > #### Optimization Approaches
+> * BasicNotes [[notes]](./Machine%20Learning/Optimization%20Algorithm/basisNote.md)
 > * SGD [[notes]](./Machine%20Learning/Optimization%20Algorithm/SGD.md)
 > * Momentum [[notes]](./Machine%20Learning/Optimization%20Algorithm/momentum.md)
 > * RMSProp [[notes]](./Machine%20Learning/Optimization%20Algorithm/RMSProp.md)
@@ -91,7 +114,7 @@
 > * Adam: [[pdf]](https://arxiv.org/pdf/1412.6980.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adam.md)
 
 
-### 7. Pre-training Model
+### 9. Pre-training Model
 
 > #### 简要介绍
 > 预训练模型（Pre-training model）是指在机器学习算法中，使用大量训练数据，对模型进行预先训练，以获得更好的性能和更有效地学习结果。
