@@ -27,8 +27,15 @@
 > 强化学习的过程可以描述为：智能体（Agent）从环境（Environment）中获得观察（Observation），然后根据观察选择行动（Action），
 > 行动导致环境发生变化，变化产生新的状态和奖励（Reward），奖励可以让智能体学习到哪些行动有利于达到最终目标。
 
+> #### Books
+> * Reinforcement Learning: an Introduction [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
+> * Algorithms for Reinforcement Learning [[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+
+> #### Lecture
+> * UCL$\times$DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
 > #### Paper List
+> * **[BasicNotes]** [[notes]]()
 > * **[DQN]** Human-level control through deep reinforcement learning
 [[pdf]](https://daiwk.github.io/assets/dqn.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/DQN.md)
 > * **[PPO]** Proximal Policy Optimization Algorithms
