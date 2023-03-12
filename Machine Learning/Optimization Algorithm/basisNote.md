@@ -73,7 +73,7 @@ $$ D^2 f = \begin{bmatrix}
 \frac{\partial f^2}{\partial x_1 \partial x_n} & \frac{\partial f^2}{\partial x_2 \partial x_n} & \cdots & \frac{\partial f^2}{\partial x_n^2} 
 \end{bmatrix}  $$
 > * **微分链式法则**：如果$g: \mathcal{D} \rightarrow \mathcal{R}$在$D\subset R^n$上是可微的，且$f: (a. b) \rightarrow \mathcal{D}$在$(a,b)$上可微。那么其复合函数$h: (a, b)\rightarrow R$，$h(t) = g(f(t))$在$(a,b)$上是可微的，且导数为
-$$ h^{\prime}(t) = Dg(f(t))Df(t) = \nabla g(f(t))^{T} \begin{bmatrix} f^{\prime}_{1}(t) \\\\ \vdots \\\\ f^{\prime}_{n}(t) \end{bmatrix}$$
+$$ h^{\prime}(t) = Dg(f(t))Df(t) = \nabla g(f(t))^{T} \begin{bmatrix} f^{\prime}_{1}(t) \\\\ \vdots \\\\ f^{\prime}_{n}(t) \end{bmatrix} $$
 > * **泰勒定理**：假定函数$f: R\rightarrow R$在区间$[a, b]$上是$m$阶连续可微的。令$h=b-a$，有
 $$ f(b) = f(a) + \frac{h}{1!}f^{(1)}(a) + \frac{h^2}{2!}f^{(2)}(a) + \cdots + \frac{h^{m-1}}{(m-1)!}f^{(m-1)}(a) + R_m$$
 $$ R_m = \frac{h^m}{m!} f^{(m)} (a + \theta h) $$
