@@ -73,7 +73,7 @@ $$ D^2 f = \begin{bmatrix}
 \frac{\partial f^2}{\partial x_1 \partial x_n} & \frac{\partial f^2}{\partial x_2 \partial x_n} & \cdots & \frac{\partial f^2}{\partial x_n^2} 
 \end{bmatrix}  $$
 > * **微分链式法则**：如果$g: \mathcal{D} \rightarrow \mathcal{R}$在$D\subset R^n$上是可微的，且$f: (a. b) \rightarrow \mathcal{D}$在$(a,b)$上可微。那么其复合函数$h: (a, b)\rightarrow R$，$h(t) = g(f(t))$在$(a,b)$上是可微的，且导数为
-$$ h^{'}(t) = Dg(f(t))Df(t) = \nabla g(f(t))^{T} \begin{bmatrix} f^{'}_{1}(t) \\\\ \vdots \\\\ f^{'}_{n}(t) \end{bmatrix}$$
+$$ h^{\'}(t) = Dg(f(t))Df(t) = \nabla g(f(t))^{T} \begin{bmatrix} f^{\'}_{1}(t) \\\\ \vdots \\\\ f^{\'}_{n}(t) \end{bmatrix}$$
 > * **泰勒定理**：假定函数$f: R\rightarrow R$在区间$[a, b]$上是$m$阶连续可微的。令$h=b-a$，有
 $$ f(b) = f(a) + \frac{h}{1!}f^{(1)}(a) + \frac{h^2}{2!}f^{(2)}(a) + \cdots + \frac{h^{m-1}}{(m-1)!}f^{(m-1)}(a) + R_m$$
 $$ R_m = \frac{h^m}{m!} f^{(m)} (a + \theta h) $$
@@ -88,5 +88,24 @@ $$ \nabla f(x^{\*}) = 0$$
 > * **局部极小值的二阶必要条件**：Hessian矩阵是半正定矩阵，即$d^{T} \cdot D^2 f \cdot d \geq 0$。
 > * **一维优化搜索方法**：$f: R \rightarrow R$时的搜索方法有 黄金分割法、斐波那契数列法、二分法、牛顿法、割线法、划界法等。
 > * **全局搜索算法**：Nelder-Mead单纯形法、模拟退火法、粒子群优化算法、遗传算法
-> * **梯度方法**：随机梯度下降、牛顿法等
+> * **梯度方法**：随机梯度下降、牛顿法等 【深入介绍】
 
+
+### 5. 线性规划问题
+
+> **线性规划**
+> * **线性规划问题**：线性规划的标准模型为：
+$$ \mathrm{minimize\ } \mathbf{c}^{T} \mathbf{x} \mathrm{\ subject\ to\ } \mathbf{Ax=b, x\geq 0} $$
+> * **基本解**：$\begin{bmatrix} \mathbf{x_B}^{T} & \mathbf{0}^{T} \end{bmatrix}^{T}$是$\mathbf{Ax=b}$
+在基$\mathbf{B}$下的基本解，向量$\mathbf{x_B}$中的元素称为基变量，$\mathbf{B}$中的列向量称为基本列向量。
+> * **可行解**：满足$\mathbf{Ax=b, x\geq 0}$的向量$\mathbf{x}$称为可行解。
+> * **最优可行解**：对于满足$\mathbf{Ax=b, x\geq 0}$的向量$\mathbf{x}$，如果它能使目标函数$\mathbf{c^{T}x}$取得极小值，则称其为最优可行解。
+> 
+> **单纯形法**
+> * **矩阵初等行变换**：① 交换矩阵中任意两行的位置；② 矩阵中某行乘以非零实数；③ 矩阵中某行乘以实数后加到令一行。
+> * **初等矩阵**：① 
+
+
+### 6. 有约束的非线性规划问题
+
+> * 
