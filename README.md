@@ -2,11 +2,9 @@
 
 ## *Objectives*
 
-**Tracking potential fields.**
+> * **Tracking potential fields.**
+> * **Build Omniscient Knowledge Graph.**
 
-在当前经济增长乏力的背景下，需要技术和产业突破来驱动经济发展。 现在是深入研究技术的好时机。
-
-这些文献阅读笔记包括摘要、关键引文和读者感兴趣的重要细节。 它们还可能包括问题、个人反思以及与其他领域的联系。
 
 ## *Machine Learning Fields*
 
@@ -29,9 +27,18 @@
 > 强化学习的过程可以描述为：智能体（Agent）从环境（Environment）中获得观察（Observation），然后根据观察选择行动（Action），
 > 行动导致环境发生变化，变化产生新的状态和奖励（Reward），奖励可以让智能体学习到哪些行动有利于达到最终目标。
 
+> #### Books
+> * Reinforcement Learning: an Introduction [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
+> * Algorithms for Reinforcement Learning [[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+
+> #### Lecture
+> * UCL$\times$DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
 > #### Paper List
-> * Proximal Policy Optimization Algorithms
+> * **[BasicNotes]** [[notes]]()
+> * **[DQN]** Human-level control through deep reinforcement learning
+[[pdf]](https://daiwk.github.io/assets/dqn.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/DQN.md)
+> * **[PPO]** Proximal Policy Optimization Algorithms
 [[pdf]](https://arxiv.org/pdf/1707.06347.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/PPO.md)
 > * 
 
@@ -77,13 +84,34 @@
 > #### Paper List
 > * 
 
+### 6. Active Learning
 
-### 6. Optimization Algorithm
+> #### 简要介绍
+> 
+
+> #### Paper List
+> * Active Learning with Label Comparisons
+[[pdf]](https://proceedings.mlr.press/v180/yona22a/yona22a.pdf) [[notes]](./Machine%20Learning/Active%20Learning/NbrGraphSGD.md)
+> * 
+
+### 7. Semi-Supervised Learning
+
+> #### 简要介绍
+> 
+
+> #### Paper List
+> * AdaMatch: A Unified Approach to Semi-Supervised Learning and Domain Adaptation
+[[pdf]](https://arxiv.org/pdf/2106.04732.pdf) [[notes]](./Machine%20Learning/Semi-Supervised%20Learning/AdaMatch.md)
+> * 
+
+
+### 8. Optimization Algorithm
 
 > #### 简要介绍
 > 
 
 > #### Optimization Approaches
+> * BasicNotes [[notes]](./Machine%20Learning/Optimization%20Algorithm/basisNote.md)
 > * SGD [[notes]](./Machine%20Learning/Optimization%20Algorithm/SGD.md)
 > * Momentum [[notes]](./Machine%20Learning/Optimization%20Algorithm/momentum.md)
 > * RMSProp [[notes]](./Machine%20Learning/Optimization%20Algorithm/RMSProp.md)
@@ -91,7 +119,7 @@
 > * Adam: [[pdf]](https://arxiv.org/pdf/1412.6980.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adam.md)
 
 
-### 7. Pre-training Model
+### 9. Pre-training Model
 
 > #### 简要介绍
 > 预训练模型（Pre-training model）是指在机器学习算法中，使用大量训练数据，对模型进行预先训练，以获得更好的性能和更有效地学习结果。
