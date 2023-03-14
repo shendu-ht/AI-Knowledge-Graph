@@ -9,8 +9,8 @@
 ### 1. 问题定义
 
 > 目标场景：社交网络等网络场景的节点分类问题。数学表示为： $G=(V, E)$ ，其中 $V$ 为网络节点，
-$E\subseteq (V\times V)$为网络节点间的边。$G_L = (V, E, X, Y)$为部分标注的网络，其中$X\in \mathbb{R}^{|V|\times S}$为网络节点属性，
-$S$是属性向量的维度，$Y\in \mathbb{R}^{|V|\times |\mathcal{Y}|}$，$\mathcal{Y}$为节点标签。
+ $E\subseteq (V\times V)$为网络节点间的边。 $G_L = (V, E, X, Y)$为部分标注的网络，其中 $X\in \mathbb{R}^{|V|\times S}$为网络节点属性，
+ $S$是属性向量的维度， $Y\in \mathbb{R}^{|V|\times |\mathcal{Y}|}$， $\mathcal{Y}$为节点标签。
 
 > DeepWalk目标：学习$X_E \in \mathbb{R}^{|V|\times d}$，其中$d$为潜在表征的维度。
 

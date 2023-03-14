@@ -32,7 +32,7 @@
 > * Algorithms for Reinforcement Learning [[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
 > #### Lecture
-> * UCL$\times$DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
+> * UCL $\times$ DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
 > #### Paper List
 > * **[BasicNotes]** [[notes]]()
