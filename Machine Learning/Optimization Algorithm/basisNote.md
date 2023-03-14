@@ -1,4 +1,6 @@
-![](./Figure/optimizer.gif)
+<div align="center">
+<img src=./Figure/optimizer.gif width=60% />
+</div>
 
 
 ## 最优化的基础知识
