@@ -67,6 +67,8 @@
 > 图学习的应用非常广泛，可以用于计算机视觉，自然语言处理，社交网络分析，推荐系统，机器人控制等等。
 
 > #### Paper List
+> * A tutorial on spectral clustering
+[[pdf]](https://arxiv.org/pdf/0711.0189.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/SpectralClustering.md)
 > * DeepWalk: Online Learning of Social Representations
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732) [[notes]](./Machine%20Learning/Graph%20Learning/DeepWalk.md)
 > * LINE: Large-scale Information Network Embedding

@@ -43,16 +43,38 @@ $$\mathrm{minimize} - \log Pr(\begin{Bmatrix} v_{i-w}, \cdots, v_{i-1}, v_{i+1},
 
 > DeepWalk的整体流程如上图所示，其伪代码如下图所示。
 > 
-> 计算$Pr(u_k | \Phi(v_j))$时，采用分层Softmax分解概率。它将随机游走到的网络节点分配到二叉树的叶子节点，从二叉树根节点到$u_k$的路径可表示为$b_0, \cdots, b_{\left\lceil \log |V| \right\rceil}}$
-> 其中$b_0 = root, b_{\left\lceil \log |V| \right\rceil}} = u_k$，如此则有
+> 计算$Pr(u_k | \Phi(v_j))$时，采用分层Softmax分解概率。它将随机游走到的网络节点分配到二叉树的叶子节点，从二叉树根节点到$u_k$的路径可表示为$b_0, \cdots, b_{\left\lceil \log |V| \right\rceil}$
+> 其中$b_0 = root, b_{\left\lceil \log |V| \right\rceil} = u_k$，如此则有
 > $$ Pr(u_k | \Phi(v_j)) = \Pi_{l=1}^{\left\lceil \log |V| \right\rceil} Pr(b_l | \Phi(v_j)) $$
+> $$ Pr(b_l | \Phi(v_j)) = \frac{1}{1 + e^{-\Phi(v_j)\cdot \Psi(b_l)}} $$
 > 其中$\Psi(b_l)\in \mathbb{R}^{d}$是节点$b_l$的父节点表征，$\Phi$和$\Psi$为待优化的模型参数。
 
 <div align="center">
-<img src=./Figure/DeepWalk.png width=60% />
+<img src=./Figure/DeepWalk.png width=40% />
 </div>
 
 <div align="center">
-<img src=./Figure/SkipGram.png width=60% />
+<img src=./Figure/SkipGram.png width=40% />
 </div>
 
+
+### 5. 评估
+
+
+> 基线对比方法：
+> * SpectralClustering
+> * Modularity
+> * EdgeCluster
+> * wvRN
+> * Majority
+> 
+> 评估任务
+> * 样本集：BlogCatalog、Flickr、YouTube
+> * 任务类型：多分类任务
+> * 评价指标：Macro-F1 and Micro-F1
+> 
+> 评估结果如下图所示
+> 
+<div align="center">
+<img src=./Figure/DeepWalkEval.png width=40% />
+</div>
