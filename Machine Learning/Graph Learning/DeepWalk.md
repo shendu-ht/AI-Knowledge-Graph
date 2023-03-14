@@ -9,9 +9,9 @@
 ### 1. 问题定义
 
 > 目标场景：社交网络等网络场景的节点分类问题。数学表示为：$G=(V, E)$，其中$V$为网络节点，
-> $E\subseteq (V\times V)$为网络节点间的边。$G_L = (V, E, X, Y)$为部分标注的网络，其中$X\in \mathbb{R}^{|V|\times S}$为网络节点属性，
-> $S$是属性向量的维度，$Y\in \mathbb{R}^{|V|\times |\mathcal{Y}|}$，$\mathcal{Y}$为节点标签。
-> 
+$E\subseteq (V\times V)$为网络节点间的边。$G_L = (V, E, X, Y)$为部分标注的网络，其中$X\in \mathbb{R}^{|V|\times S}$为网络节点属性，
+$S$是属性向量的维度，$Y\in \mathbb{R}^{|V|\times |\mathcal{Y}|}$，$\mathcal{Y}$为节点标签。
+
 > DeepWalk目标：学习$X_E \in \mathbb{R}^{|V|\times d}$，其中$d$为潜在表征的维度。
 
 
@@ -29,9 +29,9 @@
 > 我们可以通过在图的变化区域进行新的游走来更新学习到的模型。
 >
 > 2. **语言建模 [Language Modeling]**：语言建模的目标是估计**单词序列 [sentence of words]**出现在语料库中的可能性，即最大化语料库中的单词序列$Pr(w_n | w_0, w_1, \cdots, w_{n-1})$。
-> 节点表征的目标是构建$\Phi: v\in V \Rightarrow \mathbb{R}^{|V|\times d}$，将随机游走的节点序列看成单词序列，则优化目标可抽象成$Pr(v_i | (\Phi(v_1), \Phi(v_2), \cdots, \Phi(v_{i-1})))$。
-> 实际的训练任务：给定节点v_i，最大化前序$w$和后序$w$节点的预测概率，$$\mathrm{minimize}_{\Phi} - \log Pr(\begin{Bmatrix} v_{i-w}, \cdots, v_{i-1}, v_{i+1}, \cdots, v_{i+w} \end{Bmatrix} | \Phi(v_i)) $$
-> 如此具有相似邻域节点的网络节点将具备相似的表征。
+节点表征的目标是构建$\Phi: v\in V \Rightarrow \mathbb{R}^{|V|\times d}$，将随机游走的节点序列看成单词序列，则优化目标可抽象成$Pr(v_i | (\Phi(v_1), \Phi(v_2), \cdots, \Phi(v_{i-1})))$。
+实际的训练任务：给定节点v_i，最大化前序$w$和后序$w$节点的预测概率，$$\mathrm{minimize}_{\Phi} - \log Pr(\begin{Bmatrix} v_{i-w}, \cdots, v_{i-1}, v_{i+1}, \cdots, v_{i+w} \end{Bmatrix} | \Phi(v_i)) $$
+如此具有相似邻域节点的网络节点将具备相似的表征。
 
      
 ### 4. DeepWalk方法详情
