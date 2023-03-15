@@ -36,8 +36,8 @@
 > $$ O_2 = - \sum_{(i, j)\in E} w_{i, j} \log p_2 (v_j | v_i) $$
 > 
 > **结合一阶和二阶邻近度**：在实际计算过程中，二阶邻近度$p_2 (v_j | v_i)$难以实现，因此采用负采样对其进行优化。最终对于边(i, j)，其优化函数如下：
-> $$ \log \sigma(\vec{u}_{j}^{\prime} {}^{T} \cdot \vec{u}_i)  + \sum_{i=1}^{K} E_{v_n \sim P_n(v)} [\log \sigma (-\vec{u}_{n}^{\prime} {}^{T} \cdot \vec{u}_i)] $$
-> 其中$\sigma(x) = 1 / (1+e^{-x})$，第一部分对既有边进行建模，第二部分进行负采样，$P_n \propto d_{v}^{3/4}$，$d_v$是节点$v$的出度。
+> $$ \log \sigma(\vec{u_{j}}^{\prime} {}^{T} \cdot \vec{u_i})  + \sum_{i=1}^{K} E_{v_n \sim P_n(v)} [\log \sigma (-\vec{u_{n}}^{\prime} {}^{T} \cdot \vec{u_i})] $$
+> 其中 $\sigma(x) = 1 / (1+e^{-x})$，第一部分对既有边进行建模，第二部分进行负采样，$P_n \propto d_{v}^{3/4}$，$d_v$是节点$v$的出度。
 > 与此同时，由于直接使用边权$w_{i,j}$会导致梯度爆炸，会对边进行采样，并使用采样后的结果作为权重来进行模型训练。
 
 
