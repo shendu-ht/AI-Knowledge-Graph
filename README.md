@@ -66,14 +66,37 @@
 > 图学习可以用来构建复杂的模型，以发现数据之间的关系，从而进行精确的分类和预测。它也可以用于探查数据中的模式，有助于提高算法的准确性和效率。
 > 图学习的应用非常广泛，可以用于计算机视觉，自然语言处理，社交网络分析，推荐系统，机器人控制等等。
 
-> #### Paper List
-> * A tutorial on spectral clustering
-[[pdf]](https://arxiv.org/pdf/0711.0189.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/SpectralClustering.md)
-> * DeepWalk: Online Learning of Social Representations
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732) [[notes]](./Machine%20Learning/Graph%20Learning/DeepWalk.md)
-> * LINE: Large-scale Information Network Embedding
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2736277.2741093) [[notes]](./Machine%20Learning/Graph%20Learning/LINE.md)
+> #### Books
+> * Graph Representation Learning
+[[pdf]](https://www.cs.mcgill.ca/~wlh/grl_book/files/GRL_Book.pdf)
 
+> #### Lecture
+> * CS224W: Machine Learning with Graphs
+[[slides]](http://web.stanford.edu/class/cs224w/)
+
+
+> #### Paper List
+> **Node/Edge/Graph Embedding**
+> 1. A tutorial on spectral clustering
+[[pdf]](https://arxiv.org/pdf/0711.0189.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/SpectralClustering.md)
+> 2. DeepWalk: Online Learning of Social Representations
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732) [[notes]](./Machine%20Learning/Graph%20Learning/DeepWalk.md)
+> 3. LINE: Large-scale Information Network Embedding
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2736277.2741093) [[notes]](./Machine%20Learning/Graph%20Learning/LINE.md)
+> 4. Anonymous Walk Embeddings
+[[pdf]](http://proceedings.mlr.press/v80/ivanov18a/ivanov18a.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/AnonymousWalk.md)
+> 
+> **Graph Neural Network**
+> 1. GCN: Semi-Supervised Classification with Graph Convolutional Networks
+[[pdf]](https://arxiv.org/pdf/1609.02907.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/GCN.md)
+> 2. GraphSage: Inductive Representation Learning on Large Graphs
+[[pdf]](https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/GraphSage.md)
+> 3. GAT: Graph Attention Networks
+[[pdf]](https://arxiv.org/pdf/1710.10903.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/GAT.md)
+> 4. HAN: Heterogeneous Graph Attention Network
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3308558.3313562) [[notes]](./Machine%20Learning/Graph%20Learning/HAN.md)
+> 5. GTN: Graph Transformer Networks
+[[pdf]](https://proceedings.neurips.cc/paper/2019/file/9d63484abb477c97640154d40595a3bb-Paper.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/GTN.md)
 
 
 ### 5. Bayesian Learning
@@ -84,6 +107,8 @@
 > 从而准确估计参数。此外，Bayesian Learning还能够通过对数据所包含信念或先前证明所得到结论之间相关性进行评估来帮助AI作出决定。
 
 > #### Paper List
+> * Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning
+[[pdf]](http://proceedings.mlr.press/v48/gal16.pdf) [[notes]](./Machine%20Learning/Bayesian%20Learning/Dropout.md)
 > * 
 
 ### 6. Active Learning
