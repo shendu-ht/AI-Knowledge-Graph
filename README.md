@@ -32,7 +32,7 @@
 > * Algorithms for Reinforcement Learning [[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
 > #### Lecture
-> * UCL$\times$DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
+> * UCL $\times$ DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
 > #### Paper List
 > * **[BasicNotes]** [[notes]]()
@@ -67,6 +67,8 @@
 > 图学习的应用非常广泛，可以用于计算机视觉，自然语言处理，社交网络分析，推荐系统，机器人控制等等。
 
 > #### Paper List
+> * A tutorial on spectral clustering
+[[pdf]](https://arxiv.org/pdf/0711.0189.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/SpectralClustering.md)
 > * DeepWalk: Online Learning of Social Representations
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732) [[notes]](./Machine%20Learning/Graph%20Learning/DeepWalk.md)
 > * LINE: Large-scale Information Network Embedding
@@ -144,6 +146,52 @@
 
 
 
+
+## *Robotics Fields*
+
+### 1. SLAM
+
+> #### 简要介绍
+> SLAM（Simultaneous Localization and Mapping）指的是同时完成机器人的定位和地图构建的技术。
+> SLAM的核心思想是利用传感器（如激光雷达，视觉等）搜集的数据来实时构建、更新和维护机器人的位置和环境地图，从而实现机器人的自主定位、自主导航等。
+> SLAM的目的在于实现机器人的自主理解和规划，并且能够面对环境变化快速响应。 
+> SLAM的技术结构上分为前端传感器数据处理和后端建模优化两个部分。
+> 前端传感器处理主要包括数据采集、特征提取、路径追踪、数据融合等，以实现机器人的定位；后端建模优化主要包括非线性优化、地图构建等，实现机器人的环境建模和地图更新等功能。 
+> SLAM技术对机器人导航技术具有重要意义，能够有效提高机器人的自主性，为机器人导航赋予智能。
+> SLAM技术在机器人自动化领域也有着广泛应用，如自动驾驶、服务机器人等。
+
+
+> #### Paper List
+> * a
+
+
+
+## *Computer Vision Fields*
+
+### 1. Object Detection
+
+> #### 简要介绍
+
+
+> #### Paper List
+> * a
+
+
+
+## *Natural Language Processing Fields*
+
+### 1. Natural Language Generation
+
+> #### 简要介绍
+
+
+> #### Paper List
+> * a
+
+
+
+
+
 ## *Programming Language Fields*
 
 ### 1. Program Debugging and Fault Localization
@@ -190,58 +238,3 @@
 > #### Paper List
 > * Competition-Level Code Generation with AlphaCode [[pdf]](https://arxiv.org/pdf/2203.07814.pdf) [[notes]](./Programming%20Language/Code%20Generation/AlphaCode.md)
 
-
-
-## *Robotics Fields*
-
-### 1. SLAM
-
-> #### 简要介绍
-> SLAM（Simultaneous Localization and Mapping）指的是同时完成机器人的定位和地图构建的技术。
-> SLAM的核心思想是利用传感器（如激光雷达，视觉等）搜集的数据来实时构建、更新和维护机器人的位置和环境地图，从而实现机器人的自主定位、自主导航等。
-> SLAM的目的在于实现机器人的自主理解和规划，并且能够面对环境变化快速响应。 
-> SLAM的技术结构上分为前端传感器数据处理和后端建模优化两个部分。
-> 前端传感器处理主要包括数据采集、特征提取、路径追踪、数据融合等，以实现机器人的定位；后端建模优化主要包括非线性优化、地图构建等，实现机器人的环境建模和地图更新等功能。 
-> SLAM技术对机器人导航技术具有重要意义，能够有效提高机器人的自主性，为机器人导航赋予智能。
-> SLAM技术在机器人自动化领域也有着广泛应用，如自动驾驶、服务机器人等。
-
-
-> #### Paper List
-> * a
-
-
-
-## *Computer Vision Fields*
-
-### 1. Object Detection
-
-> #### 简要介绍
-
-
-> #### Paper List
-> * a
-
-
-
-## *Natural Language Processing Fields*
-
-### 1. Natural Language Generation
-
-> #### 简要介绍
-
-
-> #### Paper List
-> * a
-
-
-## *Data Mining Fields*
-
-
-### 1. 
-
-
-> #### 简要介绍
-
-
-> #### Paper List
-> * a
