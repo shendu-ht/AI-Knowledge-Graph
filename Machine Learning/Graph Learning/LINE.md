@@ -23,9 +23,9 @@
 ### 2. LINE方法详情
 
 > **LINE表征一阶邻近度**：对于无向边$(i, j)$，节点$v_i$和$v_j$间的联合概率可表示为
-> $$ p_1 (v_i, v_j) = \frac{1}{1 + e^{- \vec{u_i}^{T}\cdot \vec{v_i}}} $$
+> $$ p_{1} (v_i, v_j) = \frac{1}{1 + e^{- \vec{u_i}^{T}\cdot \vec{v_i}}} $$
 > 其中$\vec{u_i} \in R^{d}$是节点$v_i$的低维向量表征，$p_1 (\cdot, \cdot)$衡量嵌入向量空间的距离。节点$v_i$和$v_j$间的经验概率可表示为 
-> $$\hat{p}_1 (i, j) = \frac{w_{i,j}}{W}, W = \sum_{(i,j)\in E} w_{i, j}$$
+> $$\hat{p}_{1} (i, j) = \frac{w_{i,j}}{W}, W = \sum_{(i,j)\in E} w_{i, j}$$
 > 通过优化$\hat{p}_1 (i, j)$和$p_1 (v_i, v_j)$间的KL散度来学习一阶邻近度：
 > $$ O_1 = - \sum_{(i, j)\in E} w_{i, j} \log p_1 (v_i, v_j) $$
 > 
