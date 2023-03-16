@@ -43,7 +43,7 @@
 > * 
 
 
-### 3. Generative Model
+### 3. Generative AI
 
 > #### 简要介绍
 > 生成模型是一种机器学习技术，可以用来自动根据历史数据创造出新的、可能的输出内容。其工作原理是通过使用数据集中出现的特征
@@ -51,9 +51,32 @@
 > 此外，生成模型也可以用来生成声音信号、文字信息和合成图片。
 
 > #### Paper List
-> * ControlVAE: Controllable Variational Autoencoder 
+> **Generative Model**
+> * **[VAE]** Auto-Encoding Variational Bayes
+[[pdf]](https://arxiv.org/pdf/1312.6114.pdf) [[notes]](./Machine%20Learning/Generative%20Model/VAE.md)
+> * * **[CVAE]** Learning Structured Output Representation using Deep Conditional Generative Models
+[[pdf]](https://proceedings.neurips.cc/paper/2015/file/8d55a249e6baa5c06772297520da2051-Paper.pdf)
+[[notes]](./Machine%20Learning/Generative%20Model/CVAE.md)
+> * * **[$\beta-$VAE]** Understanding disentangling in $\beta-$VAE
+[[pdf]](https://arxiv.org/pdf/1804.03599.pdf) [[notes]](./Machine%20Learning/Generative%20Model/)
+> * * **[ControlVAE]** ControlVAE: Controllable Variational Autoencoder 
 [[pdf]](http://proceedings.mlr.press/v119/shao20b/shao20b.pdf) [[notes]](./Machine%20Learning/Generative%20Model/ControlVAE.md)
-> * 
+> * * **[VQ-VAE]** Neural Discrete Representation Learning
+[[pdf]](https://proceedings.neurips.cc/paper/2017/file/7a98af17e63a0ac09ce2e96d03992fbc-Paper.pdf)
+[[notes]](./Machine%20Learning/Generative%20Model/VQ-VAE.md)
+> * **[GAN]** Generative Adversarial Networks
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3422622) [[notes]](./Machine%20Learning/Generative%20Model/GAN.md)
+> * * **[VQ-GAN]** Taming Transformers for High-Resolution Image Synthesis
+[[pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.pdf)
+[[notes]](./Machine%20Learning/Generative%20Model/VQ-GAN.md)
+> * **[DDPM]** Denoising Diffusion Probabilistic Models
+[[pdf]](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf)
+[[notes]](./Machine%20Learning/Generative%20Model/DDPM.md)
+> * * **[LDM]** High-Resolution Image Synthesis with Latent Diffusion Models
+[[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) 
+[[notes]](./Machine%20Learning/Generative%20Model/LDM.md)
+> * **[GPT-3]** Language Models are Few-Shot Learners
+[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT3.md)
 
 
 ### 4. Graph Learning
@@ -73,7 +96,8 @@
 > #### Lecture
 > * CS224W: Machine Learning with Graphs
 [[slides]](http://web.stanford.edu/class/cs224w/)
-
+> * CS228: Probabilistic Graphical Models
+[[syllabus]](https://ermongroup.github.io/cs228/) [[contents]](https://ermongroup.github.io/cs228-notes/)
 
 > #### Paper List
 > **Node/Edge/Graph Embedding**
