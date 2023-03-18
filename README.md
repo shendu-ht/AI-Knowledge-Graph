@@ -1,12 +1,12 @@
 # 史上最全的AI知识体系
 
-## *Objectives*
+# 目标
 
-> * **Tracking potential fields.**
-> * **Build Omniscient Knowledge Graph.**
+> * **跟踪前沿技术方向。**
+> * **构建全知的AI知识体系。**
 
 
-## *Machine Learning Fields*
+# 机器学习
 
 ### 1. In-Context Learning
 
@@ -195,8 +195,9 @@
 
 
 
+# 应用场景
 
-## *Robotics Fields*
+## *一、智能机器人领域*
 
 ### 1. SLAM
 
@@ -215,7 +216,7 @@
 
 
 
-## *Computer Vision Fields*
+## *二、计算机视觉领域*
 
 ### 1. Object Detection
 
@@ -227,7 +228,7 @@
 
 
 
-## *Natural Language Processing Fields*
+## *三、自然语言处理领域*
 
 ### 1. Natural Language Generation
 
@@ -241,7 +242,7 @@
 
 
 
-## *Programming Language Fields*
+## *四、程序语言领域*
 
 ### 1. Program Debugging and Fault Localization
 
