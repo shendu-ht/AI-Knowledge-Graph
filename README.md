@@ -8,42 +8,7 @@
 
 # 机器学习
 
-### 1. In-Context Learning
-
-> #### 简要介绍
-> 情景式学习（In-Context Learning）是一种学习范式，它主要目的是使模型能够在实际情境中学习新知识。它强调以实际情境为基础，
-> 通过反复练习，使模型能够有效地融入新知识。
-
-> #### Paper List
-> * An Explanation of In-context Learning as Implicit Bayesian Inference
-> * 
-
-### 2. Reinforcement Learning
-
-> #### 简要介绍
-> 强化学习（Reinforcement Learning）是一种机器学习方法，其目标是让一个智能体在经历不断的尝试和错误之后，学习到如何在一个环境中取得最优表现。
-> 它是一种在环境中的自主学习，通过在环境中采取行动来获得反馈，然后根据反馈不断学习。
-> 
-> 强化学习的过程可以描述为：智能体（Agent）从环境（Environment）中获得观察（Observation），然后根据观察选择行动（Action），
-> 行动导致环境发生变化，变化产生新的状态和奖励（Reward），奖励可以让智能体学习到哪些行动有利于达到最终目标。
-
-> #### Books
-> * Reinforcement Learning: an Introduction [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
-> * Algorithms for Reinforcement Learning [[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
-
-> #### Lecture
-> * UCL $\times$ DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
-
-> #### Paper List
-> * **[BasicNotes]** [[notes]]()
-> * **[DQN]** Human-level control through deep reinforcement learning
-[[pdf]](https://daiwk.github.io/assets/dqn.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/DQN.md)
-> * **[PPO]** Proximal Policy Optimization Algorithms
-[[pdf]](https://arxiv.org/pdf/1707.06347.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/PPO.md)
-> * 
-
-
-### 3. Generative AI
+### 1. Generative AI
 
 > #### 简要介绍
 > 生成模型是一种机器学习技术，可以用来自动根据历史数据创造出新的、可能的输出内容。其工作原理是通过使用数据集中出现的特征
@@ -77,6 +42,57 @@
 [[notes]](./Machine%20Learning/Generative%20Model/LDM.md)
 > * **[GPT-3]** Language Models are Few-Shot Learners
 [[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT3.md)
+
+
+
+### 2. Pre-training Model
+
+> #### 简要介绍
+> 预训练模型（Pre-training model）是指在机器学习算法中，使用大量训练数据，对模型进行预先训练，以获得更好的性能和更有效地学习结果。
+> 预训练模型通常通过对模型参数进行训练来提高模型的性能，从而使模型在真实数据上有更好表现。
+> 预训练模型的优点在于可以提高模型的性能，从而更好地满足实际应用的需求。但是，这种模型也存在一定的局限性，比如训练数据量较小时，可能无法获得有效的训练结果，或者训练模型可能会出现过拟合现象。
+
+> #### Paper List
+> * BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
+[[pdf]](https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ) [[notes]](./Machine%20Learning/Pre-training%20Model/BERT.md)
+> * Improving Language Understanding by Generative Pre-Training
+[[pdf]](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT.md)
+> * Language Models are Unsupervised Multitask Learners
+[[pdf]](https://cs.brown.edu/courses/csci1460/assets/papers/language_models_are_unsupervised_multitask_learners.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT2.md)
+> * Language Models are Few-Shot Learners
+[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT3.md)
+> * Training language models to follow instructions with human feedback
+[[pdf]](https://arxiv.org/pdf/2203.02155.pdf?fbclid=IwAR2nZdBpdZZzvxpwI6H_bRmP4RwGOyzke9Ud63lWBe1YlyI_1BRAFhnUMUg) [[notes]](./Machine%20Learning/Pre-training%20Model/InstructGPT.md)
+> * WebGPT: Browser-assisted question-answering with human feedback
+[[pdf]](https://arxiv.org/pdf/2112.09332.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/WebGPT.md)
+> * LaMDA: Language Models for Dialog Applications
+[[pdf]](https://arxiv.org/pdf/2201.08239.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/LaMDA.md)
+
+
+
+### 3. Reinforcement Learning
+
+> #### 简要介绍
+> 强化学习（Reinforcement Learning）是一种机器学习方法，其目标是让一个智能体在经历不断的尝试和错误之后，学习到如何在一个环境中取得最优表现。
+> 它是一种在环境中的自主学习，通过在环境中采取行动来获得反馈，然后根据反馈不断学习。
+> 
+> 强化学习的过程可以描述为：智能体（Agent）从环境（Environment）中获得观察（Observation），然后根据观察选择行动（Action），
+> 行动导致环境发生变化，变化产生新的状态和奖励（Reward），奖励可以让智能体学习到哪些行动有利于达到最终目标。
+
+> #### Books
+> * Reinforcement Learning: an Introduction [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
+> * Algorithms for Reinforcement Learning [[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+
+> #### Lecture
+> * UCL $\times$ DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
+
+> #### Paper List
+> * **[BasicNotes]** [[notes]]()
+> * **[DQN]** Human-level control through deep reinforcement learning
+[[pdf]](https://daiwk.github.io/assets/dqn.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/DQN.md)
+> * **[PPO]** Proximal Policy Optimization Algorithms
+[[pdf]](https://arxiv.org/pdf/1707.06347.pdf) [[notes]](./Machine%20Learning/Reinforcement%20Learning/PPO.md)
+> * 
 
 
 ### 4. Graph Learning
@@ -122,6 +138,12 @@
 > 5. GTN: Graph Transformer Networks
 [[pdf]](https://proceedings.neurips.cc/paper/2019/file/9d63484abb477c97640154d40595a3bb-Paper.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/GTN.md)
 
+     
+
+
+
+
+
 
 ### 5. Bayesian Learning
 
@@ -156,7 +178,19 @@
 > * 
 
 
-### 8. Optimization Algorithm
+
+### 8. In-Context Learning
+
+> #### 简要介绍
+> 情景式学习（In-Context Learning）是一种学习范式，它主要目的是使模型能够在实际情境中学习新知识。它强调以实际情境为基础，
+> 通过反复练习，使模型能够有效地融入新知识。
+
+> #### Paper List
+> * An Explanation of In-context Learning as Implicit Bayesian Inference
+> * 
+
+
+### 9. Optimization Algorithm
 
 > #### 简要介绍
 > 
@@ -168,30 +202,6 @@
 > * RMSProp [[notes]](./Machine%20Learning/Optimization%20Algorithm/RMSProp.md)
 > * AdaGrad [[pdf]](https://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adaGrad.md)
 > * Adam: [[pdf]](https://arxiv.org/pdf/1412.6980.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adam.md)
-
-
-### 9. Pre-training Model
-
-> #### 简要介绍
-> 预训练模型（Pre-training model）是指在机器学习算法中，使用大量训练数据，对模型进行预先训练，以获得更好的性能和更有效地学习结果。
-> 预训练模型通常通过对模型参数进行训练来提高模型的性能，从而使模型在真实数据上有更好表现。
-> 预训练模型的优点在于可以提高模型的性能，从而更好地满足实际应用的需求。但是，这种模型也存在一定的局限性，比如训练数据量较小时，可能无法获得有效的训练结果，或者训练模型可能会出现过拟合现象。
-
-> #### Paper List
-> * BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
-[[pdf]](https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ) [[notes]](./Machine%20Learning/Pre-training%20Model/BERT.md)
-> * Improving Language Understanding by Generative Pre-Training
-[[pdf]](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT.md)
-> * Language Models are Unsupervised Multitask Learners
-[[pdf]](https://cs.brown.edu/courses/csci1460/assets/papers/language_models_are_unsupervised_multitask_learners.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT2.md)
-> * Language Models are Few-Shot Learners
-[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/GPT3.md)
-> * Training language models to follow instructions with human feedback
-[[pdf]](https://arxiv.org/pdf/2203.02155.pdf?fbclid=IwAR2nZdBpdZZzvxpwI6H_bRmP4RwGOyzke9Ud63lWBe1YlyI_1BRAFhnUMUg) [[notes]](./Machine%20Learning/Pre-training%20Model/InstructGPT.md)
-> * WebGPT: Browser-assisted question-answering with human feedback
-[[pdf]](https://arxiv.org/pdf/2112.09332.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/WebGPT.md)
-> * LaMDA: Language Models for Dialog Applications
-[[pdf]](https://arxiv.org/pdf/2201.08239.pdf) [[notes]](./Machine%20Learning/Pre-training%20Model/LaMDA.md)
 
 
 
