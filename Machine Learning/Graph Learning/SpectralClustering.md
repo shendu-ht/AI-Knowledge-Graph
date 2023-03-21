@@ -27,5 +27,6 @@ f^{\prime} L f & =  f^{\prime} D f -  f^{\prime} W f = \sum_{i=1}^{n} d_i f_i^2 
 & = \frac{1}{2} \left[ \sum_{i=1}^{n} \left( \sum_{j=1}^{n} w_{i, j} \right) f_i^2 \cdot - 2\sum_{i,j=1}^{n} f_i f_j w_{i,j} + \sum_{j=1}^{n} \left( \sum_{i=0}^{n} w_{i, j} \right) f_i^2  \right] = \frac{1}{2} \sum_{i, j=1}^{n} w_{i, j} (f_i - f_j)^2
 \end{align*} 
 > 对于任意$f\in R^n$，存在$f^{\prime} L f \geq 0$，即拉普拉斯矩阵是半正定的，且L有n个非负特征值，最小特征值为0，$0 \leq \lambda_1 \leq \lambda_2 \leq \cdots \leq \lambda_n$。
+> * 拉普拉斯矩阵$L$的特征值0所对应特征向量数量$k$等价于图$G$的连通分量的数量$A_1, \cdots, A_k$，特征值0对应的特征向量空间可表示为$\vec{1}_{A_1}, \cdots, \vec{1}_{A_k}$。
 > 
 > 归一化的图拉普拉斯：$L_{sym} = , L_{rm} = $
