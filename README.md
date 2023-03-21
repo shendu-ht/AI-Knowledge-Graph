@@ -130,13 +130,29 @@
 > 
 > **Node/Edge/Graph Embedding**
 > 1. A tutorial on spectral clustering
-[[pdf]](https://arxiv.org/pdf/0711.0189.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/SpectralClustering.md)
-> 2. DeepWalk: Online Learning of Social Representations
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732) [[notes]](./Machine%20Learning/Graph%20Learning/DeepWalk.md)
-> 3. LINE: Large-scale Information Network Embedding
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2736277.2741093) [[notes]](./Machine%20Learning/Graph%20Learning/LINE.md)
-> 4. Anonymous Walk Embeddings
-[[pdf]](http://proceedings.mlr.press/v80/ivanov18a/ivanov18a.pdf) [[notes]](./Machine%20Learning/Graph%20Learning/AnonymousWalk.md)
+[[pdf]](https://arxiv.org/pdf/0711.0189.pdf)
+[[notes]](./Machine%20Learning/Graph%20Learning/SpectralClustering.md)
+> 2. TransE: Translating Embeddings for Modeling Multi-relational Data
+[[pdf]](https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf)
+[[notes]](./Machine%20Learning/Graph%20Learning/TransE.md)
+> 3. TransH: Knowledge Graph Embedding by Translating on Hyperplanes
+[[pdf]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2a3f862199883ceff5e3c74126f0c80770653e05)
+[[notes]](./Machine%20Learning/Graph%20Learning/TransH.md)
+> 4. TransR: Learning Entity and Relation Embeddings for Knowledge Graph Completion
+[[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/9491/9350)
+[[notes]](./Machine%20Learning/Graph%20Learning/TransR.md)
+> 5. TransD: Knowledge Graph Embedding via Dynamic Mapping Matrix
+[[pdf]](https://aclanthology.org/P15-1067.pdf)
+[[notes]](./Machine%20Learning/Graph%20Learning/TransD.md)
+> 6. DeepWalk: Online Learning of Social Representations
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732)
+[[notes]](./Machine%20Learning/Graph%20Learning/DeepWalk.md)
+> 7. LINE: Large-scale Information Network Embedding
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2736277.2741093)
+[[notes]](./Machine%20Learning/Graph%20Learning/LINE.md)
+> 8. Anonymous Walk Embeddings
+[[pdf]](http://proceedings.mlr.press/v80/ivanov18a/ivanov18a.pdf) 
+[[notes]](./Machine%20Learning/Graph%20Learning/AnonymousWalk.md)
 > 
 > **Graph Neural Network**
 > 1. GCN: Semi-Supervised Classification with Graph Convolutional Networks
