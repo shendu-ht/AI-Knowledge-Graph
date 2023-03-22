@@ -63,7 +63,7 @@ $$ \bar{A_i} = V \backslash A_i ,  W(A, B) := \sum_{i\in A, j\in B} w_{i,j} $$
 > * mincut的缺点：容易出现单个节点被分为一类。优化后的目标函数包含RatioCut和归一化的Ncut：
 $$ \mathrm{RatioCut} (A_1, \cdots, A_k) :=  \frac{1}{2} \sum_{i=1}^{k} \frac{W(A_i, \bar{A_i})}{|A_i|} = \sum_{i=1}^{k} \frac{\mathrm{cut} (A_i, \bar{A_i})}{|A_i|}$$
 $$ \mathrm{Ncut} (A_1, \cdots, A_k) :=  \frac{1}{2} \sum_{i=1}^{k} \frac{W(A_i, \bar{A_i})}{\mathrm{vol} (A_i)} = \sum_{i=1}^{k} \frac{\mathrm{cut} (A_i, \bar{A_i})}{\mathrm{vol} (A_i)}$$
-$$ |A| := \# \mathrm{\ of\ vectices\ in\ }  A, \mathrm{vol}(A) := \sum_{i\in A} d_i  $$
+$$ |A| := \mathrm{number\ of\ vectices\ in\ }  A, \mathrm{vol}(A) := \sum_{i\in A} d_i  $$
 > 1. **$k=2$场景的RatioCut**
 > * * 目标：$\min_{A\subset V} \mathrm{RatioCut} (A, \bar{A})$
 > * * 定义向量$f = (f_1, \cdots, f_n)^{\prime} \in R^n$，其中$f_i = \left\{ \begin{matrix} \sqrt{|\bar{A}| / |A|}, & v_i \in A \\\\  -\sqrt{|A|/|\bar{A}|}, & v_i \in \bar{A} \end{matrix} \right.$，则有
