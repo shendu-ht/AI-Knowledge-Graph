@@ -74,10 +74,11 @@ f^{\prime} L f & = \frac{1}{2} \sum_{i, j=1}^{n} w_{i,j}(f_i - f_j)^2 \\\\
 & = |V| \cdot \mathrm{RatioCut} (A, \bar{A})
 \end{align*}
 
-> 2. **$k\textgreater 2$场景的RatioCut**
+> 2. **$k 2$场景的RatioCut**
 > * * 
 > 3. **Ncut**
 > * * 
+
 
 ### 5. 随机游走视角
 
