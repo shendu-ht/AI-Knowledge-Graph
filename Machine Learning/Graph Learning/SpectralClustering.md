@@ -66,7 +66,7 @@ $$ \mathrm{Ncut} (A_1, \cdots, A_k) :=  \frac{1}{2} \sum_{i=1}^{k} \frac{W(A_i, 
 $$ |A| := \mathrm{number\ of\ vectices\ in\ }  A, \mathrm{vol}(A) := \sum_{i\in A} d_i  $$
 > 1. **$k=2$场景的RatioCut**
 > * * 目标：$\min_{A\subset V} \mathrm{RatioCut} (A, \bar{A})$
-> * * 定义向量$f = (f_1, \cdots, f_n)^{\prime} \in R^n$，其中$f_i = \left\{ \begin{matrix} \sqrt{|\bar{A}| / |A|}, & v_i \in A \\\\  -\sqrt{|A|/|\bar{A}|}, & v_i \in \bar{A} \end{matrix} \right.$，则有
+> * * 定义向量$f = (f_1, \cdots, f_n)^{\prime} \in R^n$，其中$f_i = \left\{ \begin{matrix} \sqrt{|\bar{A}| / |A|}, & v_i \in A \\\\ -\sqrt{|A|/|\bar{A}|}, & v_i \in \bar{A} \end{matrix} \right. $，则有
 \begin{align*}
 f^{\prime} L f & = \frac{1}{2} \sum_{i, j=1}^{n} w_{i,j}(f_i - f_j)^2 \\\\
 & = \frac{1}{2} \sum_{i \in A, j \in \bar{A}} w_{i,j} \left(\sqrt{|\bar{A}| / |A|} + \sqrt{|A|/|\bar{A}|} \right)^2 + \frac{1}{2} \sum_{i \in \bar{A}, j \in A} w_{i,j} \left(-\sqrt{|\bar{A}| / |A|} - \sqrt{|A|/|\bar{A}|} \right)^2 \\\\
