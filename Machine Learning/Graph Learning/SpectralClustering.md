@@ -73,7 +73,8 @@ f^{\prime} L f & = \frac{1}{2} \sum_{i, j=1}^{n} w_{i,j}(f_i - f_j)^2 \\\\
 & = \mathrm{cut} (A, \bar{A}) \left(\frac{|\bar{A}|}{ |A|} + \frac{|A|}{|\bar{A}|} + 2  \right) = \mathrm{cut} (A, \bar{A})  \left( \frac{|A| + |\bar{A}|}{|A|} + \frac{|A| + |\bar{A}|}{|\bar{A}|} \right) \\\\
 & = |V| \cdot \mathrm{RatioCut} (A, \bar{A})
 \end{align*}
-> 2. **$k>2$场景的RatioCut**
+
+> 2. **$k\g 2$场景的RatioCut**
 > * * 
 > 3. **Ncut**
 > * * 
