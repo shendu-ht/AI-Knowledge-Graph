@@ -89,7 +89,7 @@ $$ \left\lbrace \begin{matrix} v_i \in A, & f_i > 0 \\\\ v_i \in \bar{A}, & f_i 
 $$ h_{i, j} = \left\lbrace \begin{matrix} 1/\sqrt{|A_j|} & v_i \in A_j \\\\ 0 & v_i \notin A_j \end{matrix} \right. $$
 > * * 矩阵$H$的特性有
 $$ H^{\prime} H = I $$
-$$ h_{i}^{\prime} L h_{i} = \frac{\mathrm{cut} (A_i, \bar{A_i})}{|A_i|} = (H^{\prime} L H)_{ii} $$
+$$ h_{i}^{\prime} L h_{i} = \frac{\mathrm{cut} (A_i, \bar{A_i})}{|A_i|} = (H^{\prime} L H) $$
 $$ \mathrm{RatioCut} (A_1, \cdots, A_k) = \sum_{i=1}^{k}  h_{i}^{\prime} L h_{i}  = \sum_{i=1}^{k} (H^{\prime} L H)_{ii} = \mathrm{Tr} (H^{\prime} L H) $$
 > * * 同上，优化问题等价于：
 $$ \min_{A_1, \cdots, A_k} \mathrm{Tr} (H^{\prime} L H) \mathrm{\ subject\ to\ } H^{\prime}H = I, h_{i, j} = \left\lbrace \begin{matrix} 1/\sqrt{|A_j|} & v_i \in A_j \\\\ 0 & v_i \notin A_j \end{matrix} \right.  $$
