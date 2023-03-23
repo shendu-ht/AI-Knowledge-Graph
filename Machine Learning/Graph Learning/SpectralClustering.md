@@ -108,5 +108,5 @@ $$ \min_{H\in R^{n\times k}} \mathrm{Tr}(H^{\prime} L H) \equiv \min_{T \in R^{n
 
  从随机游走视角看节点聚类，可理解为在游走过程中，持续停留在某一类别下，而很少跨类别游走。游走的转移矩阵
 $$ P = \left(p_{i, j}\right)_{i, j=1,\cdots, n} = D^{-1} W $$
-
+$$ L_{rw} = I - P $$
  
