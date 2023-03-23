@@ -87,11 +87,21 @@ $$ \left\lbrace \begin{matrix} v_i \in A, & f_i > 0 \\\\ v_i \in \bar{A}, & f_i 
 > 2. **$k\geq 3$场景的RatioCut**
 > * * 定义矩阵$H \in R^{n \times k}$，其中第$j$行$h_j = (h_{1, j}, \cdots, h_{n, j})$是节点是否属于类别$A_j$的指标向量$\vec{1_{A_j}}$。
 $$ h_{i, j} = \left\lbrace \begin{matrix} 1/\sqrt{|A_j|} & v_i \in A_j \\\\ 0 & v_i \notin A_j \end{matrix} \right. $$
-> * * 
+> * * 矩阵$H$的特性有
+$$ H^{\prime} H = I $$
+$$ h_{i}^{\prime} L h_{i} = \frac{\mathrm{cut} (A_i, \bar{A_i})}{|A_i|} = (H^{\prime} L H)_{ii} $$
+$$ \mathrm{RatioCut} (A_1, \cdots, A_k) = \sum_{i=1}^{k}  h_{i}^{\prime} L h_{i}  = \sum_{i=1}^{k} (H^{\prime} L H)_{ii} = \mathrm{Tr} (H^{\prime} L H) $$
+> * * 同上，优化问题等价于：
+$$ \min_{A_1, \cdots, A_k} \mathrm{Tr} (H^{\prime} L H) \mathrm{\ subject\ to\ } H^{\prime}H = I, h_{i, j} = \left\lbrace \begin{matrix} 1/\sqrt{|A_j|} & v_i \in A_j \\\\ 0 & v_i \notin A_j \end{matrix} \right.  $$
+> * * 同上，优化问题是NP难度，常见的处理后的优化问题如下：
+$$ \min_{H \in R^{n\times k}} \mathrm{Tr} (H^{\prime} L H) \mathrm{\ subject\ to\ } H^{\prime}H = I $$
+> * * 最终可直接用矩阵$H$作为输入，采用$k-means$等方法来对节点进行聚类。
 
 > 3. **Ncut**
-> * * 
-
+> * * 对于$k=2$，记$g:= D^{1/2} f$，则有
+$$ \min_{f\in R^{n}} f^{\prime} L f \equiv \min_{g\in R^{n}} g^{\prime} D^{-1/2} L D^{-1/2} g \equiv \min_{g\in R^{n}} g^{\prime} L_{sym} g \mathrm{\ subject\ to\ } g \perp D^{1/2}\vec{1}, \| g \|^2 = \mathrm{vol}(V) $$
+> * * 对于$k>2$，记$T:= D^{1/2} H$，则有
+$$ \min_{H\in R^{n\times k}} \mathrm{Tr}(H^{\prime} L H) \equiv \min_{T \in R^{n\times k}} \mathrm{Tr} (T^{\prime} D^{-1/2} L D^{-1/2} T) \equiv \min_{T \in R^{n\times k}} \mathrm{Tr} (H^{\prime} L_{sym} H)  \mathrm{\ subject\ to\ } T^{\prime} T = I $$
 
 ### 5. 随机游走视角
 
