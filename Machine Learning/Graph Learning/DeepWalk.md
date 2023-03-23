@@ -75,6 +75,6 @@ $$\mathrm{minimize} - \log Pr(\begin{Bmatrix} v_{i-w}, \cdots, v_{i-1}, v_{i+1},
  
  评估结果如下图所示
  
-<div align="center"
-<img src=./Figure/DeepWalkEval.png width=40% /
-</div
+<div align="center">
+<img src=./Figure/DeepWalkEval.png width=40% />
+</div>

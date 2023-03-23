@@ -43,6 +43,6 @@
 
 ### 3. 评估
 
-<div align="center"
-<img src=./Figure/LINEval.png width=40% /
-</div
+<div align="center">
+<img src=./Figure/LINEval.png width=40% />
+</div>
