@@ -103,5 +103,7 @@ $$ \min_{f\in R^{n}} f^{\prime} L f \equiv \min_{g\in R^{n}} g^{\prime} D^{-1/2}
 > * * 对于$k>2$，记$T:= D^{1/2} H$，则有
 $$ \min_{H\in R^{n\times k}} \mathrm{Tr}(H^{\prime} L H) \equiv \min_{T \in R^{n\times k}} \mathrm{Tr} (T^{\prime} D^{-1/2} L D^{-1/2} T) \equiv \min_{T \in R^{n\times k}} \mathrm{Tr} (H^{\prime} L_{sym} H)  \mathrm{\ subject\ to\ } T^{\prime} T = I $$
 
+
 ### 5. 随机游走视角
 
+> 从随机游走视角看节点聚类，可理解为在游走过程中，持续停留在某一类别下，而很少跨类别游走。游走的转移矩阵$ P = \left(p_{i, j}\right)_{i, j=1,\cdots, n} $
