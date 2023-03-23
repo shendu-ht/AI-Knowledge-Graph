@@ -64,6 +64,7 @@ $$ \bar{A_i} = V \backslash A_i ,  W(A, B) := \sum_{i\in A, j\in B} w_{i,j} $$
 $$ \mathrm{RatioCut} (A_1, \cdots, A_k) :=  \frac{1}{2} \sum_{i=1}^{k} \frac{W(A_i, \bar{A_i})}{|A_i|} = \sum_{i=1}^{k} \frac{\mathrm{cut} (A_i, \bar{A_i})}{|A_i|}$$
 $$ \mathrm{Ncut} (A_1, \cdots, A_k) :=  \frac{1}{2} \sum_{i=1}^{k} \frac{W(A_i, \bar{A_i})}{\mathrm{vol} (A_i)} = \sum_{i=1}^{k} \frac{\mathrm{cut} (A_i, \bar{A_i})}{\mathrm{vol} (A_i)}$$
 $$ |A| := \mathrm{number\ of\ vectices\ in\ }  A, \mathrm{vol}(A) := \sum_{i\in A} d_i  $$
+
 > 1. **$k=2$场景的RatioCut**
 > * * 目标：$\min_{A\subset V} \mathrm{RatioCut} (A, \bar{A})$
 > * * 定义向量$f = (f_1, \cdots, f_n)^{\prime} \in R^n$，其中$f_i = \left\lbrace \begin{matrix} \sqrt{|\bar{A}| / |A|}, & v_i \in A \\\\ -\sqrt{|A|/|\bar{A}|}, & v_i \in \bar{A} \end{matrix} \right. $，则有
@@ -73,9 +74,21 @@ f^{\prime} L f & = \frac{1}{2} \sum_{i, j=1}^{n} w_{i,j}(f_i - f_j)^2 \\\\
 & = \mathrm{cut} (A, \bar{A}) \left(\frac{|\bar{A}|}{ |A|} + \frac{|A|}{|\bar{A}|} + 2  \right) = \mathrm{cut} (A, \bar{A})  \left( \frac{|A| + |\bar{A}|}{|A|} + \frac{|A| + |\bar{A}|}{|\bar{A}|} \right) \\\\
 & = |V| \cdot \mathrm{RatioCut} (A, \bar{A})
 \end{align*}
+> * * 向量$f$的特性有：
+$$ \sum_{i=1}^{n} f_i = \sum_{i\in A} \sqrt{\frac{|\bar{A}|}{|A|}} - \sum_{i \in \bar{A}} \sqrt{\frac{|A|}{|\bar{A}|}} = |A|  \sqrt{\frac{|\bar{A}|}{|A|}} -  |\bar{A}| \sqrt{\frac{|A|}{|\bar{A}|}} = 0 $$
+$$ \| f \|^2 = \sum_{i=1}^{n} f_{i}^{2} = |A|\frac{|\bar{A}|}{|A|} + |\bar{A}|\frac{|A|}{|\bar{A}|} = |V| $$
+> * * 因此，优化问题可以等价于：
+$$ \min_{A\subset V} f^{\prime} L f \mathrm{\ \ subject\ to\ } f \perp \vec{1}, f_i = \left\lbrace \begin{matrix} \sqrt{|\bar{A}| / |A|}, & v_i \in A \\\\ -\sqrt{|A|/|\bar{A}|}, & v_i \in \bar{A} \end{matrix} \right. , ||f|| = \sqrt{|V|}  $$
+> * * 上述优化问题是NP难度，常见的处理后的优化问题如下，$f$可以任意取值。
+$$ \min_{A\subset V} f^{\prime} L f \mathrm{\ \ subject\ to\ } f \perp \vec{1}, ||f|| = \sqrt{|V|}  $$
+> * * 最终基于向量$f$的节点分类结果
+$$ \left\lbrace \begin{matrix} v_i \in A, & f_i > 0 \\\\ v_i \in \bar{A}, & f_i < 0  \end{matrix} \right. $$
 
-> 2. **$k\geq 2$场景的RatioCut**
+> 2. **$k\geq 3$场景的RatioCut**
+> * * 定义矩阵$H \in R^{n \times k}$，其中第$j$行$h_j = (h_{1, j}, \cdots, h_{n, j})$是节点是否属于类别$A_j$的指标向量$\vec{1_{A_j}}$。
+$$ h_{i, j} = \left\lbrace \begin{matrix} 1/\sqrt{|A_j|} & v_i \in A_j \\\\ 0 & v_i \notin A_j \end{matrix} \right. $$
 > * * 
+
 > 3. **Ncut**
 > * * 
 
