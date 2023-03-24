@@ -304,7 +304,38 @@ SLAM技术在机器人自动化领域也有着广泛应用，如自动驾驶、�
 
 ## *五、程序语言领域*
 
-### 1. Program Debugging and Fault Localization
+### 1. Code Generation
+
+**简要介绍**
+
+代码生成是一种自动生成软件代码的技术。它可以根据用户提供的设计或模型自动生成软件代码，从而大大简化编码工作，提高软件开发的效率。 
+代码生成可以分为四个基本步骤：分析、转换、生成和调试。分析阶段，用户需要提供模型或设计，以便系统能够识别要实现的功能。
+在转换阶段，系统将模型或设计转换成代码，这一步的转换可以是从模型到代码的直接转换或者从模型到另一个中间模型的转换，然后再从中间模型到代码的转换。
+在生成阶段，系统根据转换的结果生成代码。最后，在调试阶段，用户可以通过查看代码，检查并修正生成的代码，以确保生成的代码满足用户的要求。
+代码生成技术可以用来自动生成各种软件，包括桌面应用程序、移动应用程序、Web应用程序、Web服务、数据库应用程序等。
+它可以帮助软件开发者以快速、高效的方式实现软件的开发，进而提高软件开发的效率。
+
+
+**Paper List**
+
+* **[CodeBERT]** CodeBERT: A Pre-Trained Model for Programming and Natural Languages
+[[pdf]](https://arxiv.org/pdf/2002.08155.pdf)
+[[notes]](./Applications/Programming%20Language/Code%20Generation/CodeBERT.md)
+* **[GraphCodeBERT]** GraphCodeBERT: Pre-training Code Representations with Data Flow
+[[pdf]](https://arxiv.org/pdf/2009.08366.pdf)
+[[notes]](./Applications/Programming%20Language/Code%20Generation)
+* **[PLBART]** Unified Pre-training for Program Understanding and Generation
+[[pdf]](https://arxiv.org/pdf/2103.06333.pdf)
+[[notes]](./Applications/Programming%20Language/Code%20Generation/PLBART.md)
+* **[Codex]** Evaluating Large Language Models Trained on Code
+[[pdf]](https://arxiv.org/pdf/2107.03374.pdf)
+[[notes]](./Applications/Programming%20Language/Code%20Generation/Codex.md)
+* **[AlphaCode]** Competition-Level Code Generation with AlphaCode
+[[pdf]](https://arxiv.org/pdf/2203.07814.pdf)
+[[notes]](./Applications/Programming%20Language/Code%20Generation/AlphaCode.md)
+
+
+### 2. Program Debugging and Fault Localization
 
 **简要介绍**
 
@@ -320,7 +351,7 @@ SLAM技术在机器人自动化领域也有着广泛应用，如自动驾驶、�
 
 
 
-### 2. Automatic Program Repair
+### 3. Automatic Program Repair
 
 **简要介绍**
 
@@ -337,21 +368,6 @@ APR可以用来修复软件bug，优化代码，提高软件的整体性能。 �
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510177) [notes](./Programming%20Language/Automatic%20Program%20Repair/DEAR.md)
 
 
-### 3. Code Generation
-
-**简要介绍**
-
-代码生成是一种自动生成软件代码的技术。它可以根据用户提供的设计或模型自动生成软件代码，从而大大简化编码工作，提高软件开发的效率。 
-代码生成可以分为四个基本步骤：分析、转换、生成和调试。分析阶段，用户需要提供模型或设计，以便系统能够识别要实现的功能。
-在转换阶段，系统将模型或设计转换成代码，这一步的转换可以是从模型到代码的直接转换或者从模型到另一个中间模型的转换，然后再从中间模型到代码的转换。
-在生成阶段，系统根据转换的结果生成代码。最后，在调试阶段，用户可以通过查看代码，检查并修正生成的代码，以确保生成的代码满足用户的要求。
-代码生成技术可以用来自动生成各种软件，包括桌面应用程序、移动应用程序、Web应用程序、Web服务、数据库应用程序等。
-它可以帮助软件开发者以快速、高效的方式实现软件的开发，进而提高软件开发的效率。
-
-
-**Paper List**
-
-* Competition-Level Code Generation with AlphaCode [[pdf]](https://arxiv.org/pdf/2203.07814.pdf) [[notes]](./Programming%20Language/Code%20Generation/AlphaCode.md)
 
 
 # 关键技术源码 
