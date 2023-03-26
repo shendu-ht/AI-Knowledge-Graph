@@ -18,6 +18,7 @@
 
 优化函数：TransE通过如下损失函数来学习节点和边的嵌入向量
 $$ \mathcal{L} = \sum_{(h, l, t) \in S} \sum_{(h^{\prime}, l, t^{\prime}) \in S^{\prime}_{(h, l, t)}} \begin{bmatrix} \gamma + d(h+l, t) - d(h^{\prime} + l, t^{\prime}) \end{bmatrix} $$
+
 $$  S^{\prime}_{(h, l, t)} = \left\lbrace (h^{\prime}, l, t) | h^{\prime} \in E \right\rbrace \cup \left\lbrace (h, l, t^{\prime}) | t^{\prime} \in E \right\rbrace $$
 
 在优化过程中，实体嵌入向量的L2正则约束为1，关系嵌入向量没有约束。详细地优化过程如下图所示。
