@@ -40,3 +40,18 @@ $$ \mathcal{D^{m}} (i) = \frac{1}{m} \sum_{X_j \in X^{m}} [X_j = a_i] $$
 $$ m = \left\lceil  \frac{2}{\epsilon^2} (\log (2^{\eta} - 2) - \log (\delta)) \right\rceil $$
 
 #### _2.2 数据驱动的AWE模型_
+
+**数据驱动的方法类似于学习语料库中的段落嵌入**。 通过遍历图$G$的节点$u$，采样$T$次随机游走，我们得到原始序列$(w_{1}^{u}, w_{2}^{u}, \cdots, w_{T}^{u})$和匿名序列$s^{u} = (a_{1}^{u}, a_{2}^{u}, \cdots ,a_{T}^{u}) $。
+
+**目标是学习图的表征**：图的表征$d \in R^{1\times d_g}$，匿名游走矩阵$W\in R^{\eta \times d_a}$，其中$d_g$是图嵌入向量的大小（类比于段嵌入向量），$d_a$是匿名游走结果的嵌入向量大小（类比于词嵌入向量）。学习的目标是最大化如下概率：
+$$ \frac{1}{T} \sum_{t=\Delta}^{T-\Delta} \log p(w_t | w_{t-\Delta}, \cdots, w_{t+\Delta}, d) $$
+
+$$ p(w_t | w_{t-\Delta}, \cdots, w_{t+\Delta}, d) = \frac{e^{y(w_t)}}{\sum_{i=1}^{\eta} e^{y(w_i)}} $$ 
+
+$$ y(w_t) = b + Uh(w_{t-\Delta}, \cdots, w_{t+\Delta}, d) $$
+
+其中$b\in R$和$U \in R^{d_a + d_g}$是Softmax参数，$h$计算可参见下图，先对匿名游走结果的嵌入向量$(w_{t-\Delta}, \cdots, w_{t+\Delta})$进行平均，再和图嵌入$d$进行联结。
+
+<div align="center">
+<img src=./Figure/AWE.png width=40% />
+</div>

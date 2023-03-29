@@ -153,6 +153,9 @@
 8. **[AWE]** Anonymous Walk Embeddings
 [[pdf]](http://proceedings.mlr.press/v80/ivanov18a/ivanov18a.pdf) 
 [[notes]](./Machine%20Learning/Graph%20Learning/AnonymousWalk.md)
+9. **[graph2vec]** graph2vec: Learning Distributed Representations of Graphs
+[[pdf]](https://arxiv.org/pdf/1707.05005.pdf)
+[[notes]](./Machine%20Learning/Graph%20Learning/graph2vec.md)
 
 **Graph Neural Network**
 1. **[GCN]** Semi-Supervised Classification with Graph Convolutional Networks
