@@ -37,9 +37,9 @@ $$\mathrm{minimize} - \log Pr(\begin{Bmatrix} v_{i-w}, \cdots, v_{i-1}, v_{i+1},
      
 ### 4. DeepWalk方法详情
 
-<div align="center"
-<img src=./Figure/OverviewDeepWalk.png width=60% /
-</div
+<div align="center">
+<img src=./Figure/OverviewDeepWalk.png width=60% />
+</div>
 
  DeepWalk的整体流程如上图所示，其伪代码如下图所示。
  
@@ -49,13 +49,13 @@ $$\mathrm{minimize} - \log Pr(\begin{Bmatrix} v_{i-w}, \cdots, v_{i-1}, v_{i+1},
  $$ Pr(b_l | \Phi(v_j)) = \frac{1}{1 + e^{-\Phi(v_j)\cdot \Psi(b_l)}} $$
  其中$\Psi(b_l)\in \mathbb{R}^{d}$是节点$b_l$的父节点表征，$\Phi$和$\Psi$为待优化的模型参数。
 
-<div align="center"
-<img src=./Figure/DeepWalk.png width=40% /
-</div
+<div align="center">
+<img src=./Figure/DeepWalk.png width=40% />
+</div>
 
-<div align="center"
-<img src=./Figure/SkipGram.png width=40% /
-</div
+<div align="center">
+<img src=./Figure/SkipGram.png width=40% />
+</div>
 
 
 ### 5. 评估
