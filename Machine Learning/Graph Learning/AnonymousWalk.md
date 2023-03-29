@@ -16,11 +16,16 @@
 
 #### _2.1 基于特征的AWE模型_
 
-定义：
-* 原始图$G = (V, E, \Omega)$，其中$V=\{ v_1, v_2, \cdots, v_n \}$是一组节点，$E\subseteq V \times V$是一组边，$\Omega \in R$是一组边权。
-* 基于原始图，构造随机游走图$R = (V, E, P)$，其中连接节点$u$和节点$v$的边$e=(u, v)$的权重为$p_e = \frac{\omega_e}{\sum_{v^{\prime} \in N_{out}(u)} \omega(u, v^{\prime})}$，$N_{out}(u)$是节点u的出邻接节点。
-* 在图$R$上游走次数$l$的随机游走$w$节点序列为$u_1, u_2, \cdots, u_{l+1}$，每次游走$(u_i, u_{i+1})$基于概率$p_{(u_i, u_{i+1})}$进行选择，最终随机游走的概率为$p(w) = \Pi_{e\in w} p_{e}$。
 
+**随机游走图**：原始图$G = (V, E, \Omega)$，其中$V=\{ v_1, v_2, \cdots, v_n \}$是一组节点，$E\subseteq V \times V$是一组边，$\Omega \in R$是一组边权。
+基于原始图，构造随机游走图$R = (V, E, P)$，其中连接节点$u$和节点$v$的边$e=(u, v)$的权重为$p_e = \frac{\omega_e}{\sum_{v^{\prime} \in N_{out}(u)} \omega(u, v^{\prime})}$，$N_{out}(u)$是节点u的出邻接节点。
+
+**匿名路径概率**：在图$R$上游走次数$l$的随机游走$w$节点序列为$u_1, u_2, \cdots, u_{l+1}$，每次游走$(u_i, u_{i+1})$基于概率$p_{(u_i, u_{i+1})}$进行选择，最终随机游走的概率为$p(w) = \Pi_{e\in w} p_{e}$。
+
+从初始节点$u$出发的一组游走长度为$l$的$\eta$个不同随机游走结果可表示为$W_{l}^{u} = (a_1^u, a_2^u, \cdots, a_{\eta}^u)$，从节点$u$出发的匿名游走结果$a_{i}^{u}$的概率为$p(a_{i}^{u}) = \sum_{w \in W_{l}^{u}, w \mapsto a_i} p(w)$。在整张图$G$上，匿名游走结果$a_i$的概率为
+$$p(a_i) = \frac{1}{N} \sum_{u\in G} p(a_i^u) = \frac{1}{N} \sum_{u\in G} \sum_{w \in W_{l}^{u}, w \mapsto a_i} p(w) $$
+
+**基于特征的AWE**：
 
 
 
