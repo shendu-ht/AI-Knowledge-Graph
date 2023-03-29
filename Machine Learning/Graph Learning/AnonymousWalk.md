@@ -33,7 +33,7 @@ $$ f_{G} = (p(a_1), p(a_2), \cdots, p(a_{\eta})) $$。
 记$A_l = (a_1, a_2, \cdots, a_{\eta})$是长度为$l$的所有可能匿名游走结果，对于$A_l$上的两个独立概率分布$P$和$Q$，定义距离函数
 $$ \begin{Vmatrix} P- Q \end{Vmatrix}  =  \sum_{a_i \in A} | P(a_i) - Q(a_i) | $$
 
-对于图$G$，记原始匿名游走结果的分布为$\mathcal{D}_l$，$X^{m} = (X_1, X_2, \cdots, X_m)$是从$\mathcal{D}_l$中的随机采样结果，则计算出来的经验分布为$\mathcal{D}^{m}$，计算公式如下，其中如果$x$为真，则$[x] = 1$。
+对于图$G$，记原始匿名游走结果的分布为$\mathcal{D_l}$，$X^{m} = (X_1, X_2, \cdots, X_m)$是从$\mathcal{D_l}$中的随机采样结果，则计算出来的经验分布为$\mathcal{D^{m}}$，计算公式如下，其中如果$x$为真，则$[x] = 1$。
 $$ \mathcal{D^{m}} (i) = \frac{1}{m} \sum_{X_j \in X^{m}} [X_j = a_i] $$
 
 那么对于所有$\epsilon > 0$且$\delta \in [0, 1]$，样本量$m$需满足$P \left\lbrace \begin{Vmatrix} \mathcal{D}^{m} - \mathcal{D}  \end{Vmatrix} _1 \geq \epsilon \right\rbrace \leq \delta$，这等价于：
