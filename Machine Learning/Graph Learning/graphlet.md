@@ -34,7 +34,7 @@ $$ \Rightarrow  k_g(G, G^{\prime}) = \sum_{S, S^{\prime} \in \mathcal{G}} \mathr
 ### 2. 图采样
 
 **概率分布距离**：记$\mathcal{A} = \left\lbrace 1, 2, \cdots, a  \right\rbrace$，对于$\mathcal{A}$上的两个概率分布$P$和$Q$，其$L1$距离可定义为
-$$ \begin{Vmatrix} P-Q \end{Vmatrix}_1 := \sum_{i=1}^{a} \begin{vmatrix} P(i) - Q(i) \end{vmatrix} $$
+$$ \begin{Vmatrix} P-Q \end{Vmatrix} := \sum_{i=1}^{a} \begin{vmatrix} P(i) - Q(i) \end{vmatrix} $$
 
 给定集合$X := \left\lbrace X_j \right\rbrace_{j=1}^{m}$，$X_j$是从概率分布$D$中采样的结果，那么$D$的经验分布可定义为
 $$ \hat{D}^{m} (i) = \frac{1}{m} \sum_{j=1}^{m} \delta(X_j = D(i)) $$
