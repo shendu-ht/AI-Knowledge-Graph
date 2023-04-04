@@ -8,6 +8,34 @@
 
 # 机器学习
 
+## _一、基本概念_
+
+**什么是机器学习**
+
+机器学习（Machine Learning）是一种人工智能（Artificial Intelligence）的分支，也是一种通过算法和数学模型来让计算机系统自动学习新知识、提高自身性能的技术。
+机器学习的核心目标就是通过从数据中自动推导出规律并预测结果。机器学习广泛应用于图像和语音识别、自然语言处理、文本分类、个性化推荐、金融风险管理、医疗研究与诊断等领域。
+
+**机器学习的基本概念**
+
+* 数据集：机器学习需要大量的数据作为输入，以便机器学习算法可以学习模式并执行预测任务。
+* 机器学习算法：定义如何将数据转换成有用信息的方法。这些算法通常包括分类、聚类、回归和神经网络等。
+* 
+
+
+**机器学习的基本领域**
+
+
+**机器学习的入门课程**
+
+
+
+* 
+* 
+* 
+
+
+## _二、核心领域_
+
 ### 1. Generative AI
 
 **简要介绍**
@@ -327,6 +355,9 @@ SLAM技术在机器人自动化领域也有着广泛应用，如自动驾驶、�
 * **[CodeBERT]** CodeBERT: A Pre-Trained Model for Programming and Natural Languages
 [[pdf]](https://arxiv.org/pdf/2002.08155.pdf)
 [[notes]](./Applications/Programming%20Language/Code%20Generation/CodeBERT.md)
+* **[PyMT5]** PYMT5: multi-mode translation of natural language and PYTHON code with transformers
+[[pdf]](https://arxiv.org/pdf/2010.03150.pdf)
+[[notes]](./Applications/Programming%20Language/Code%20Generation/PyMT5.md)
 * **[GraphCodeBERT]** GraphCodeBERT: Pre-training Code Representations with Data Flow
 [[pdf]](https://arxiv.org/pdf/2009.08366.pdf)
 [[notes]](./Applications/Programming%20Language/Code%20Generation)
