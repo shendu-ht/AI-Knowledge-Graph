@@ -1,5 +1,5 @@
 <div align="center">
-<img src=./Figure/optimizer.gif width=60% />
+<img src=Figure/optimizer.gif width=60% />
 </div>
 
 

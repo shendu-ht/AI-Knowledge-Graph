@@ -10,7 +10,7 @@
 大小为$k$的graphlet可表示为$\mathcal{G} = \begin{Bmatrix} graphlet(1), \cdots, graphlet(N_k) \end{Bmatrix}$，大小为4的所有Graphlet如下图所示。
 
 <div align="center">
-<img src=./Figure/Graphlet.png width=40% />
+<img src=Figure/Graphlet.png width=40% />
 </div>
 
 图G的k谱$f_G$是图中大小为$k$的graphlet的子图数量：$f_G (i) = \mathrm{number}(graphlet(i) \subseteq G)$，归一化后的向量为：

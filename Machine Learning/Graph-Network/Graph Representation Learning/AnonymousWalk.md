@@ -55,5 +55,5 @@ $$ y(w_t) = b + Uh(w_{t-\Delta}, \cdots, w_{t+\Delta}, d) $$
 其中$b\in R$和$U \in R^{d_a + d_g}$是Softmax参数，$h$计算可参见下图，先对匿名游走结果的嵌入向量$(w_{t-\Delta}, \cdots, w_{t+\Delta})$进行平均，再和图嵌入$d$进行联结。
 
 <div align="center">
-<img src=./Figure/AWE.png width=40% />
+<img src=Figure/AWE.png width=40% />
 </div>

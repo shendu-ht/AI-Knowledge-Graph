@@ -16,7 +16,7 @@ BERT是一种自监督的语言模型，通过利用大量未标注的语料库�
 > #### *模型架构*
 > Bert模型架构是多层双向Transformer Encoder。
 
-![Model Structure Comparison](./Figure/Bert%20Structure.png)
+![Model Structure Comparison](Figure/Bert%20Structure.png)
 
 
 
@@ -43,7 +43,7 @@ BERT是一种自监督的语言模型，通过利用大量未标注的语料库�
 > 下图展示了Bert的四种微调任务，（a）和（b）是sentence-level的任务，（c）和（d）token-level的任务。
 > 
 
-![Bert Fine-tuning](./Figure/Bert%20fine-tuning.png)
+![Bert Fine-tuning](Figure/Bert%20fine-tuning.png)
 
 
 ### 2. 评估任务
