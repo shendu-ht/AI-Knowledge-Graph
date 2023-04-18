@@ -42,17 +42,17 @@ $$ f^{\prime} L_{sym} f = \frac{1}{2} \sum_{i, j=1}^{n} w_{i, j} \left( \frac{f_
  $$ s(x_i, x_j) = e^{-\frac{|x_i - x_j|^2}{2 \sigma^2}} $$
 
 <div align="center">
-<img src=./Figure/SpectralClusteringU.png width=40% />
+<img src=Graph width=40% />
 </div>
 
  归一化的谱聚类方法如下：
  
 <div align="center">
-<img src=./Figure/SpectralClusteringN.png width=40% />
+<img src=Graph width=40% />
 </div>
 
 <div align="center">
-<img src=./Figure/SpectralClusteringN2.png width=40% />
+<img src=Graph width=40% />
 </div>
 
 

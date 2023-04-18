@@ -2,6 +2,7 @@
 
 ### 0. 概括
 
+核心思想在于将关系看做是从一个实体到另一个实体的转换，并基于此来生成实体Embedding。
 
 ### 1. 多关系型数据建模
 
@@ -24,5 +25,5 @@ $$  S^{\prime}_{(h, l, t)} = \left\lbrace (h^{\prime}, l, t) | h^{\prime} \in E 
 在优化过程中，实体嵌入向量的L2正则约束为1，关系嵌入向量没有约束。详细地优化过程如下图所示。
 
 <div align="center">
-<img src=./Figure/TransE.png width=40% />
+<img src=Graph width=40% />
 </div>

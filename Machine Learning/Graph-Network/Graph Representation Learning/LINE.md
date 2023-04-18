@@ -44,5 +44,5 @@
 ### 3. 评估
 
 <div align="center">
-<img src=./Figure/LINEval.png width=40% />
+<img src=Graph width=40% />
 </div>
