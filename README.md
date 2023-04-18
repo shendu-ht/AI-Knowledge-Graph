@@ -51,30 +51,35 @@
 此外，生成模型也可以用来生成声音信号、文字信息和合成图片。
 
 * **[VAE]** Auto-Encoding Variational Bayes
-[[pdf]](https://arxiv.org/pdf/1312.6114.pdf) [[notes]](Machine Learning/Generative AI/Generative Model/VAE.md)
+[[pdf]](https://arxiv.org/pdf/1312.6114.pdf)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/VAE.md)
 * * **[CVAE]** Learning Structured Output Representation using Deep Conditional Generative Models
 [[pdf]](https://proceedings.neurips.cc/paper/2015/file/8d55a249e6baa5c06772297520da2051-Paper.pdf)
-[[notes]](./Machine Learning/Generative AI/Generative Model/CVAE.md)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/CVAE.md)
 * * **[$\beta-$VAE]** Understanding disentangling in $\beta-$VAE
-[[pdf]](https://arxiv.org/pdf/1804.03599.pdf) [[notes]](./Machine%20Learning/Generative%20Model/)
+[[pdf]](https://arxiv.org/pdf/1804.03599.pdf) 
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/Beta-VAE.md)
 * * **[ControlVAE]** ControlVAE: Controllable Variational Autoencoder 
-[[pdf]](http://proceedings.mlr.press/v119/shao20b/shao20b.pdf) [[notes]](Machine Learning/Generative AI/Generative Model/ControlVAE.md)
+[[pdf]](http://proceedings.mlr.press/v119/shao20b/shao20b.pdf)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/ControlVAE.md)
 * * **[VQ-VAE]** Neural Discrete Representation Learning
 [[pdf]](https://proceedings.neurips.cc/paper/2017/file/7a98af17e63a0ac09ce2e96d03992fbc-Paper.pdf)
-[[notes]](Machine Learning/Generative AI/Generative Model/VQ-VAE.md)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/VQ-VAE.md)
 * **[GAN]** Generative Adversarial Networks
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3422622) [[notes]](Machine Learning/Generative AI/Generative Model/GAN.md)
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3422622)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/GAN.md)
 * * **[VQ-GAN]** Taming Transformers for High-Resolution Image Synthesis
 [[pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Esser_Taming_Transformers_for_High-Resolution_Image_Synthesis_CVPR_2021_paper.pdf)
-[[notes]](Machine Learning/Generative AI/Generative Model/VQ-GAN.md)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/VQ-GAN.md)
 * **[DDPM]** Denoising Diffusion Probabilistic Models
 [[pdf]](https://proceedings.neurips.cc/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf)
-[[notes]](Machine Learning/Generative AI/Generative Model/DDPM.md)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/DDPM.md)
 * * **[LDM]** High-Resolution Image Synthesis with Latent Diffusion Models
 [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf) 
-[[notes]](Machine Learning/Generative AI/Generative Model/LDM.md)
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/LDM.md)
 * **[GPT-3]** Language Models are Few-Shot Learners
-[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [[notes]](Machine Learning/Generative AI/Pre-training Model/GPT3.md)
+[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/GPT3.md)
 
 
 #### 1-B. Pre-training Model
@@ -84,19 +89,26 @@
 预训练模型的优点在于可以提高模型的性能，从而更好地满足实际应用的需求。但是，这种模型也存在一定的局限性，比如训练数据量较小时，可能无法获得有效的训练结果，或者训练模型可能会出现过拟合现象。
 
 * BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
-[[pdf]](https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ) [[notes]](Machine Learning/Generative AI/Pre-training Model/BERT.md)
+[[pdf]](https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ)
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/BERT.md)
 * Improving Language Understanding by Generative Pre-Training
-[[pdf]](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf) [[notes]](Machine Learning/Generative AI/Pre-training Model/GPT.md)
+[[pdf]](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/GPT.md)
 * Language Models are Unsupervised Multitask Learners
-[[pdf]](https://cs.brown.edu/courses/csci1460/assets/papers/language_models_are_unsupervised_multitask_learners.pdf) [[notes]](Machine Learning/Generative AI/Pre-training Model/GPT2.md)
+[[pdf]](https://cs.brown.edu/courses/csci1460/assets/papers/language_models_are_unsupervised_multitask_learners.pdf) 
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/GPT2.md)
 * Language Models are Few-Shot Learners
-[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf) [[notes]](Machine Learning/Generative AI/Pre-training Model/GPT3.md)
+[[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/GPT3.md)
 * Training language models to follow instructions with human feedback
-[[pdf]](https://arxiv.org/pdf/2203.02155.pdf?fbclid=IwAR2nZdBpdZZzvxpwI6H_bRmP4RwGOyzke9Ud63lWBe1YlyI_1BRAFhnUMUg) [[notes]](Machine Learning/Generative AI/Pre-training Model/InstructGPT.md)
+[[pdf]](https://arxiv.org/pdf/2203.02155.pdf?fbclid=IwAR2nZdBpdZZzvxpwI6H_bRmP4RwGOyzke9Ud63lWBe1YlyI_1BRAFhnUMUg)
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/InstructGPT.md)
 * WebGPT: Browser-assisted question-answering with human feedback
-[[pdf]](https://arxiv.org/pdf/2112.09332.pdf) [[notes]](Machine Learning/Generative AI/Pre-training Model/WebGPT.md)
+[[pdf]](https://arxiv.org/pdf/2112.09332.pdf) 
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/WebGPT.md)
 * LaMDA: Language Models for Dialog Applications
-[[pdf]](https://arxiv.org/pdf/2201.08239.pdf) [[notes]](Machine Learning/Generative AI/Pre-training Model/LaMDA.md)
+[[pdf]](https://arxiv.org/pdf/2201.08239.pdf) 
+[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/LaMDA.md)
 
 
 #### 1-C In-Context Learning
@@ -117,18 +129,24 @@
 行动导致环境发生变化，变化产生新的状态和奖励（Reward），奖励可以让智能体学习到哪些行动有利于达到最终目标。
 
 **Books**
-* Reinforcement Learning: an Introduction [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
-* Algorithms for Reinforcement Learning [[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+* Reinforcement Learning: an Introduction 
+[[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
+* Algorithms for Reinforcement Learning 
+[[pdf]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
 **Lecture**
-* UCL $\times$ DeepMind Reinforcement Learning [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
+* UCL $\times$ DeepMind Reinforcement Learning 
+[[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
 **Paper List**
-* **[BasicNotes]** [[notes]]()
+* **[BasicNotes]** 
+[[notes]](./Machine%20Learning/Generative%20AI/Reinforcement%20Learning/basicNote.md)
 * **[DQN]** Human-level control through deep reinforcement learning
-[[pdf]](https://daiwk.github.io/assets/dqn.pdf) [[notes]](Machine Learning/Generative AI/Reinforcement Learning/DQN.md)
+[[pdf]](https://daiwk.github.io/assets/dqn.pdf) 
+[[notes]](./Machine%20Learning/Generative%20AI/Reinforcement%20Learning/DQN.md)
 * **[PPO]** Proximal Policy Optimization Algorithms
-[[pdf]](https://arxiv.org/pdf/1707.06347.pdf) [[notes]](Machine Learning/Generative AI/Reinforcement Learning/PPO.md)
+[[pdf]](https://arxiv.org/pdf/1707.06347.pdf)
+[[notes]](./Machine%20Learning/Generative%20AI/Reinforcement%20Learning/PPO.md)
 
 
 ### 2. Graph/Network
@@ -153,34 +171,34 @@
 **Paper List**
 1. A tutorial on spectral clustering
 [[pdf]](https://arxiv.org/pdf/0711.0189.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/SpectralClustering.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/SpectralClustering.md)
 2. **[Graphlet]** Efficient graphlet kernels for large graph comparison
 [[pdf]](http://proceedings.mlr.press/v5/shervashidze09a/shervashidze09a.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/graphlet.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/graphlet.md)
 3. **[TransE]** Translating Embeddings for Modeling Multi-relational Data
 [[pdf]](https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/TransE.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/TransE.md)
 4. **[TransH]** Knowledge Graph Embedding by Translating on Hyperplanes
 [[pdf]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2a3f862199883ceff5e3c74126f0c80770653e05)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/TransH.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/TransH.md)
 5. **[TransR]** Learning Entity and Relation Embeddings for Knowledge Graph Completion
 [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/9491/9350)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/TransR.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/TransR.md)
 6. **[TransD]** Knowledge Graph Embedding via Dynamic Mapping Matrix
 [[pdf]](https://aclanthology.org/P15-1067.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/TransD.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/TransD.md)
 7. **[DeepWalk]** DeepWalk: Online Learning of Social Representations
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2623330.2623732)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/DeepWalk.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/DeepWalk.md)
 8. **[LINE]** LINE: Large-scale Information Network Embedding
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/2736277.2741093)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/LINE.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/LINE.md)
 9. **[AWE]** Anonymous Walk Embeddings
 [[pdf]](http://proceedings.mlr.press/v80/ivanov18a/ivanov18a.pdf) 
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/AnonymousWalk.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/AnonymousWalk.md)
 10. **[graph2vec]** graph2vec: Learning Distributed Representations of Graphs
 [[pdf]](https://arxiv.org/pdf/1707.05005.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Representation Learning/graph2vec.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Representation%20Learning/graph2vec.md)
 
 #### 2-B Graph Neural Networks
 
@@ -196,22 +214,22 @@
 **Paper List**
 1. **[GCN]** Semi-Supervised Classification with Graph Convolutional Networks
 [[pdf]](https://arxiv.org/pdf/1609.02907.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Neural Networks/GCN.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Neural%20Networks/GCN.md)
 2. **[R-GCNs]** Modeling Relational Data with Graph Convolutional Networks
 [[pdf]](https://arxiv.org/pdf/1703.06103.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Neural Networks/R-GCNs.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Neural%20Networks/R-GCNs.md)
 3. **[GraphSage]** Inductive Representation Learning on Large Graphs
 [[pdf]](https://proceedings.neurips.cc/paper/2017/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Neural Networks/GraphSage.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Neural%20Networks/GraphSage.md)
 4. **[GAT]** Graph Attention Networks
 [[pdf]](https://arxiv.org/pdf/1710.10903.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Neural Networks/GAT.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Neural%20Networks/GAT.md)
 5. **[HAN]** Heterogeneous Graph Attention Network
 [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3308558.3313562)
-[[notes]](Machine Learning/Graph-Network/Graph Neural Networks/HAN.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Neural%20Networks/HAN.md)
 6. **[GTN]** Graph Transformer Networks
 [[pdf]](https://proceedings.neurips.cc/paper/2019/file/9d63484abb477c97640154d40595a3bb-Paper.pdf)
-[[notes]](Machine Learning/Graph-Network/Graph Neural Networks/GTN.md)
+[[notes]](./Machine%20Learning/Graph-Network/Graph%20Neural%20Networks/GTN.md)
 
 
 ### 3. Learning Paradigm
@@ -224,16 +242,20 @@
 
 * Active Learning with Label Comparisons
 [[pdf]](https://proceedings.mlr.press/v180/yona22a/yona22a.pdf)
-[[notes]](./Machine Learning/Learning Paradigm/Active Learning/NbrGraphSGD.md)
+[[notes]](./Machine%20Learning/Learning%20Paradigm/Active%20Learning/NbrGraphSGD.md)
 
 
 #### 3-B Incremental Learning
 
-增量学习是一种机器学习方法，其中模型可以在不重新训练的情况下逐步学习新的数据。这种方法通常用于当新数据不断到来时需要更新模型时，以避免重新训练整个模型所需的时间和计算成本。
+增量学习是一种机器学习方法，其中模型可以在不重新训练的情况下逐步学习新的数据。
+这种方法通常用于当新数据不断到来时需要更新模型时，以避免重新训练整个模型所需的时间和计算成本。
 增量学习可以通过添加新的训练样本或类别来扩展模型，并且可以在保持先前知识的同时，逐步适应新数据。
 
 #### 3-C Transfer Learning
 
+迁移学习是指将已经训练好的模型应用于新任务或新领域，以提高模型性能和泛化能力的技术。
+在传统机器学习中，每个任务都需要独立地进行数据收集、特征提取和模型训练，这样会浪费大量时间和资源。
+而迁移学习可以利用已有的知识和经验，快速构建适用于新任务的模型。
 
 #### 3-D Online Learning
 
@@ -247,7 +269,8 @@
 这种方法通常用于当有标签数据很难获取或成本很高时，但是可以轻松获得大量未标记的数据。
 
 * AdaMatch: A Unified Approach to Semi-Supervised Learning and Domain Adaptation
-[[pdf]](https://arxiv.org/pdf/2106.04732.pdf) [[notes]](Machine Learning/Learning Paradigm/Semi-Supervised Learning/AdaMatch.md)
+[[pdf]](https://arxiv.org/pdf/2106.04732.pdf)
+[[notes]](./Machine%20Learning/Learning%20Paradigm/Semi-Supervised%20Learning/AdaMatch.md)
 
 
 ### 4. Bayesian Inference
@@ -376,11 +399,14 @@ CTR预估在在线广告、推荐系统、搜索引擎等个性化在线服务�
 APR可以用来修复软件bug，优化代码，提高软件的整体性能。 它还可用于检测和修复代码中的安全漏洞。
 
 * Automatic Patch Generation by Learning Correct Code
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2837614.2837617) [[notes]](./Programming%20Language/Automatic%20Program%20Repair/Prophet.md)
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/2837614.2837617)
+[[notes]](./Programming%20Language/Automatic%20Program%20Repair/Prophet.md)
 * TBar: Revisiting Template-Based Automated Program Repair
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3293882.3330577) [[notes]](./Programming%20Language/Automatic%20Program%20Repair/TBar.md)
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3293882.3330577)
+[[notes]](./Programming%20Language/Automatic%20Program%20Repair/TBar.md)
 * DEAR: A Novel Deep Learning-based Approach for Automated Program Repair
-[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510177) [notes](./Programming%20Language/Automatic%20Program%20Repair/DEAR.md)
+[[pdf]](https://dl.acm.org/doi/pdf/10.1145/3510003.3510177) 
+[[notes]](./Programming%20Language/Automatic%20Program%20Repair/DEAR.md)
 
 
 
