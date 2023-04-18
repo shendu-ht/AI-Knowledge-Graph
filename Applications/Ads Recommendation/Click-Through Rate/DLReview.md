@@ -37,7 +37,7 @@ $$ f_{\theta}^{FM} (x) = \theta_0 + \sum_{i=1}^{m} x_i \theta_i + \sum_{i=1}^{m}
 
 #### 2-2 深度模型
 * Wide & Deep network (2016)
-$$ f_{\theta}^{W\&D} (x) = \theta_0 + \sum_{i=1}^{m} x_i \theta_i + \mathrm{MLP}_{\phi} ([v_1, v_2, \cdots, v_m]) $$
+$$ f_{\theta}^{W D} (x) = \theta_0 + \sum_{i=1}^{m} x_i \theta_i + \mathrm{MLP}_{\phi} ([v_1, v_2, \cdots, v_m]) $$
 * DeepCross (2016) 引入残差网络
 
 
